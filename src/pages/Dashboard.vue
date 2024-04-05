@@ -15,7 +15,7 @@
 
 
 </div>
-<div class="center-center mt-6">
+<div class="center-center sm:mt-6">
 <RouterLink  to="#" >
     <a class="btn-glitch-fill text-lg lg:text-xl ">
     <span class="text">// 
