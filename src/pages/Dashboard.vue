@@ -1,7 +1,7 @@
 <template>
 <div id="banner" ref='vantaRef' style="height:100vh ; overflow: hidden !important;">
   <RouterLink to="/">
-    <img class="w-52" src="/images/long-logo.png" alt="morsebit logo">
+    <img class="w-24 lg:w-52 " src="/images/long-logo.png" alt="morsebit logo">
   </RouterLink>
   
 <div class="relative h-4/6 flex items-center justify-center">
@@ -15,11 +15,11 @@
 
 
 </div>
-<div class="center-center mt-12 mb-0git ">
+<div class="center-center mt-6">
 <RouterLink  to="#" >
-    <a class="btn-glitch-fill">
-    <span class="text">//<span class="text-decoration">_</span>
-    dive in</span><span class="decoration">&rArr;</span>
+    <a class="btn-glitch-fill text-lg lg:text-xl ">
+    <span class="text">// 
+      <span class="text-decoration">_</span> dive in</span><span class="decoration">&rArr;</span>
     </a>
   </RouterLink>
 </div> 
