@@ -5,23 +5,26 @@
   </RouterLink>
   
 <div class=" h-4/6 flex items-center justify-center">
-    <p class="  md:text-xl lg:text-4xl text-neutral-200 font-mono mb-4">
+    <p class="  md:text-xl lg:text-4xl text-neutral-200 font-mono">
      <span class="px-4 bg-gray-900/75"> System_All:  
     <!-- <span class="pulsate font-bold text-green-400">•ONLINE</span> -->
     <span class="pulsate font-bold text-red-800">•OFFLINE</span>
   </span>
   </p>
 
-</div>
-<div class="center-center">
+  <div class="center-center mt-12">
   <RouterLink  to="#" >
   <a class="btn-glitch-fill">
     <span class="text">//<span class="text-decoration">_</span>dive in</span><span class="decoration">&rArr;</span>
   </a>
         </RouterLink>
-</div>
+</div> 
 
 </div>
+
+
+
+</div>  
 </template>
 
 <script>
