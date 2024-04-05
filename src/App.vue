@@ -18,10 +18,9 @@
       LoadingAnimation
     },
     mounted() {
-      // Simulate a delay of 2 seconds before hiding the loading animation
       setTimeout(() => {
         this.isLoading = false;
-      }, 5000);
+      }, 2000);
     }
   }
   </script>

@@ -1,7 +1,7 @@
 <template>
 <div id="banner" ref='vantaRef' style="height:100vh ; overflow: hidden !important;">
   <RouterLink to="/">
-    <img class="w-24 lg:w-52 " src="/images/long-logo.png" alt="morsebit logo">
+    <img class="w-28 lg:w-52 " src="/images/long-logo.png" alt="morsebit logo">
   </RouterLink>
   
 <div class="relative h-4/6 flex items-center justify-center">
