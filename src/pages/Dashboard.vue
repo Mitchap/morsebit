@@ -4,25 +4,25 @@
     <img class="w-52" src="/images/long-logo.png" alt="morsebit logo">
   </RouterLink>
   
-<div class=" h-4/6 flex items-center justify-center">
+<div class="relative h-4/6 flex items-center justify-center">
   
-  <p class="  md:text-xl lg:text-4xl text-neutral-200 font-mono">
+  <p class=" md:text-xl lg:text-4xl text-neutral-200 font-mono">
      <span class="px-4 bg-gray-900/75"> System_All:  
     <span class="pulsate font-bold text-red-800">•OFFLINE</span>
   </span>
   </p>
  
-  <RouterLink  to="#" >
-    <div class="center-center mt-12 mb-0git ">
+
+
+</div>
+<div class="center-center mt-12 mb-0git ">
+<RouterLink  to="#" >
     <a class="btn-glitch-fill">
     <span class="text">//<span class="text-decoration">_</span>
     dive in</span><span class="decoration">&rArr;</span>
     </a>
-    </div> 
   </RouterLink>
-
-</div>
-
+</div> 
 
 
 </div>  
