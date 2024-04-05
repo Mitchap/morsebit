@@ -1,5 +1,5 @@
 <template>
-<div ref='vantaRef' style="height:100vh ; overflow: hidden !important;">
+<div id="banner" ref='vantaRef' style="height:100vh ; overflow: hidden !important;">
   <RouterLink to="/">
     <img class="w-52" src="/images/long-logo.png" alt="morsebit logo">
   </RouterLink>
@@ -7,7 +7,7 @@
 <div class="relative h-4/6 flex items-center justify-center">
   
   <p class=" md:text-xl lg:text-4xl text-neutral-200 font-mono">
-     <span class="px-4 bg-gray-900/75"> System_All:  
+     <span class="p-4 bg-neutral-900/75"> System_All:  
     <span class="pulsate font-bold text-red-800">•OFFLINE</span>
   </span>
   </p>
@@ -218,5 +218,9 @@ export default {
   }
 }
 
-
+/* @media screen and (max-width:760px;) {
+  #banner{
+    overflow: hidden;
+  }
+} */
 </style>
