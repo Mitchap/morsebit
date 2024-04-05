@@ -1,6 +1,8 @@
 <template>
 <div ref='vantaRef' style="height:100vh ; overflow: hidden !important;">
-  <img class="w-52" src="/images/long-logo.png" alt="morsebit logo">
+  <RouterLink to="/">
+    <img class="w-52" src="/images/long-logo.png" alt="morsebit logo">
+  </RouterLink>
   
 <div class=" h-4/6 flex items-center justify-center">
     <p class="  md:text-xl lg:text-4xl text-neutral-200 font-mono mb-4">
