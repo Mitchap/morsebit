@@ -217,10 +217,4 @@ export default {
     width: 10%;
   }
 }
-
-/* @media screen and (max-width:760px;) {
-  #banner{
-    overflow: hidden;
-  }
-} */
 </style>
