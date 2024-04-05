@@ -12,7 +12,7 @@
   </span>
   </p>
 
-  <div class="center-center mt-12">
+  <div class="center-center mt-12 mb-0">
   <RouterLink  to="#" >
   <a class="btn-glitch-fill">
     <span class="text">//<span class="text-decoration">_</span>dive in</span><span class="decoration">&rArr;</span>
