@@ -1,35 +1,37 @@
 <template>
-<div id="banner" ref='vantaRef' style="height:100vh ; overflow: hidden !important;">
-  <RouterLink to="/">
-    <img class="w-28 lg:w-52 " src="/images/long-logo.png" alt="morsebit logo">
-  </RouterLink>
-  
-<div class="relative h-4/6 flex items-center justify-center">
-  
-  <p class=" md:text-xl lg:text-4xl text-neutral-200 font-mono">
-     <span class="p-4 bg-neutral-900/75"> System_All:  
-    <span class="pulsate font-bold text-red-800">•OFFLINE</span>
-  </span>
-  </p>
- 
+  <div
+    id="banner"
+    ref="vantaRef"
+    style="height: 100vh; overflow: hidden !important"
+  >
+    <img
+      class="mx-3 w-32 lg:w-52"
+      src="/images/morsebit-logo.png"
+      alt="morsebit logo"
+    />
 
-
-</div>
-<div class="center-center sm:mt-6">
-<RouterLink  to="#" >
-    <a class="btn-glitch-fill text-lg lg:text-xl ">
-    <span class="text">// 
-      <span class="text-decoration">_</span> dive in</span><span class="decoration">&rArr;</span>
-    </a>
-  </RouterLink>
-</div> 
-
-
-</div>  
+    <div class="relative h-4/6 flex items-center justify-center">
+      <p class="md:text-xl lg:text-4xl text-neutral-200 font-mono">
+        <span class="p-4 bg-neutral-900/75">
+          System_All:
+          <span class="pulsate font-bold text-red-800">•OFFLINE</span>
+        </span>
+      </p>
+    </div>
+    <div class="center-center sm:mt-6">
+      <RouterLink to="/products">
+        <a class="btn-glitch-fill text-lg lg:text-xl">
+          <span class="text"
+            >// <span class="text-decoration">_</span> dive in</span
+          ><span class="decoration">&rArr;</span>
+        </a>
+      </RouterLink>
+    </div>
+  </div>
 </template>
 
 <script>
-import DOTS from 'vanta/dist/vanta.dots.min'
+import DOTS from "vanta/dist/vanta.dots.min";
 
 export default {
   mounted() {
@@ -38,23 +40,23 @@ export default {
       mouseControls: true,
       touchControls: true,
       gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
+      minHeight: 200.0,
+      minWidth: 200.0,
+      scale: 1.0,
+      scaleMobile: 1.0,
       color: 0xbb1d00,
       color2: 0xca7e02,
       backgroundColor: 0x1b1b1b,
-      size: 4.30,
-      spacing: 60.00
-    })
+      size: 4.3,
+      spacing: 60.0,
+    });
   },
   beforeDestroy() {
     if (this.vantaEffect) {
-      this.vantaEffect.destroy()
+      this.vantaEffect.destroy();
     }
-  }
-}
+  },
+};
 </script>
 
 <style>
@@ -75,7 +77,7 @@ export default {
   }
 
   50% {
-    opacity: 1.0;
+    opacity: 1;
   }
 
   100% {
@@ -89,7 +91,7 @@ export default {
   }
 
   50% {
-    opacity: 1.0;
+    opacity: 1;
   }
 
   100% {
