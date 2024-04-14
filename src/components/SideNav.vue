@@ -69,11 +69,11 @@
       <div class="offcanvas-header flex justify-end mx-auto">
         <div class="flex flex-col">
           <img
-            class="w-9 mx-auto opacity-80"
+            class="w-9 mx-auto opacity-80gi"
             src="/images/logo-icon.png"
             alt="morsebit logo"
           />
-          <p class="text-xs">© 2024 MORSEBIT</p>
+          <p class="text-xs">© 2024 MORSEBIT™</p>
         </div>
       </div>
     </div>
