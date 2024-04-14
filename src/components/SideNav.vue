@@ -27,14 +27,14 @@
       aria-labelledby="SideNavLabel"
       style="background-color: #1b1b1b"
     >
-      <div class="offcanvas-header">
+      <div class="offcanvas-header flex justify-end">
         <button
           type="button"
-          class="btn-close text-reset"
+          class="text-white hover:text-orange-400"
           data-bs-dismiss="offcanvas"
           aria-label="Close"
         >
-          <i class="fas fa-times text-white hover:text-orange-400"></i>
+          <i class="fas fa-times"></i>
         </button>
       </div>
       <!-- start of sidebar links -->
@@ -63,6 +63,17 @@
               <span class="hover:text-orange-400">/// CONTACT</span>
             </RouterLink>
           </div>
+        </div>
+      </div>
+      <!-- bottom of side nav -->
+      <div class="offcanvas-header flex justify-end mx-auto">
+        <div class="flex flex-col">
+          <img
+            class="w-9 mx-auto"
+            src="/images/logo-icon.png"
+            alt="morsebit logo"
+          />
+          <p class="text-xs">© 2024 MORSEBIT</p>
         </div>
       </div>
     </div>
