@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="flex flex-col fixed top-0 text-slate-100 w-screen text-slate-100 font-medium text-leading pb-2.5"
+    class="flex flex-col fixed top-0 text-slate-100 w-screen text-slate-100 font-medium text-leading pb-2.5 z-50"
     style="background-color: #1b1b1b"
   >
     <div class="mx-auto mb-1">
@@ -73,13 +73,13 @@
             src="/images/logo-icon.png"
             alt="morsebit logo"
           />
-          <p class="text-xs">© 2024 MORSEBIT™</p>
+          <p class="text-xs">&copy; 2024 MORSEBIT &trade;</p>
         </div>
       </div>
     </div>
   </nav>
 </template>
 
-<script setup></script>
+<script></script>
 
 <style></style>
