@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="flex flex-col fixed top-0 text-slate-100 w-screen text-slate-100 font-medium text-leading hover:text-orange-400 pb-2.5"
+    class="flex flex-col fixed top-0 text-slate-100 w-screen text-slate-100 font-medium text-leading pb-2.5"
     style="background-color: #1b1b1b"
   >
     <div class="mx-auto mb-1">
@@ -69,7 +69,7 @@
       <div class="offcanvas-header flex justify-end mx-auto">
         <div class="flex flex-col">
           <img
-            class="w-9 mx-auto"
+            class="w-9 mx-auto opacity-80"
             src="/images/logo-icon.png"
             alt="morsebit logo"
           />
