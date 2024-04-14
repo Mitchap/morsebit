@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-auto">
+  <div class="overflow-hidden">
     <RouterView v-if="!isLoading" />
     <loading-animation v-if="isLoading"></loading-animation>
   </div>

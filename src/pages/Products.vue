@@ -1,9 +1,12 @@
 <template>
-  <div>
+  <div class="hidden md:block">
     <Navbar />
   </div>
+  <div class="block md:hidden">
+    <SideNav />
+  </div>
 
-  <main style="background-color: #1b1b1b">
+  <main class="py-32" style="background-color: #fefefe">
     <div
       class="mx-auto my-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
     >
@@ -15,7 +18,7 @@
           <h5
             class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
           >
-            Noteworthy technology acquisitions 2021
+            Hatdog sa ref ng ofw 2021
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -71,6 +74,7 @@
 
 <script setup>
 import Navbar from "@/components/Navbar.vue";
+import SideNav from "@/components/SideNav.vue";
 </script>
 
 <style></style>

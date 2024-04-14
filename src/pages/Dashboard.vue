@@ -5,7 +5,7 @@
     style="height: 100vh; overflow: hidden !important"
   >
     <img
-      class="mx-3 w-32 lg:w-52"
+      class="mx-auto w-32 lg:w-52"
       src="/images/morsebit-logo.png"
       alt="morsebit logo"
     />
