@@ -113,7 +113,7 @@
           <h6
             class="mb-4 flex justify-center font-semibold uppercase md:justify-start"
           >
-            Useful links
+            Service Links
           </h6>
 
           <p class="mb-4">

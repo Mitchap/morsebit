@@ -6,8 +6,9 @@
     <div class="block md:hidden">
       <SideNav />
     </div>
+
     <main class="py-32 h-full" style="background-color: #fefefe">
-      <h1 class="text-center fw-bold text-4xl">about page</h1>
+      <h1 class="text-center fw-bold text-4xl">contacts page</h1>
     </main>
     <div>
       <TheFooter />

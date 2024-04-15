@@ -49,14 +49,14 @@
               <span class="hover:text-orange-400">/// PRODUCTS</span>
             </router-link>
             <router-link
-              to="/products"
+              to="/about"
               href="#"
               class="my-3 relative text-xs w-fit block after:block after:content-[''] after:absolute after:h-[2px] hover:text-orange-400 after:bg-orange-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
             >
               <span class="hover:text-orange-400">/// ABOUT</span>
             </router-link>
             <router-link
-              to="/products"
+              to="/contact"
               href="#"
               class="my-3 relative text-xs w-fit block after:block after:content-[''] after:absolute after:h-[2px] hover:text-orange-400 after:bg-orange-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
             >

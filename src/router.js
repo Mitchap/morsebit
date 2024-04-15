@@ -2,7 +2,9 @@ import { createRouter, createWebHistory } from "vue-router";
 import Dashboard from "@/pages/Dashboard.vue";
 import Products from "@/pages/Products.vue";
 import About from "@/pages/About.vue";
+import Contact from "@/pages/Contact.vue";
 
+ // Unique keys are added to ensure remount of pages
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -20,6 +22,11 @@ const router = createRouter({
       path: '/about',
       component: About,
       props: { key: "about" }, // Unique key for the About route
+    },
+        {
+      path: '/contact',
+      component: Contact,
+      props: { key: "contact" }, // Unique key for the Contact route
     },
     {
       path: '/',
