@@ -105,7 +105,7 @@
             <a href="#!">Messenger Sling System</a>
           </p>
           <p>
-            <a href="#!">Custom Accesories</a>
+            <a href="#!">Custom Accessories</a>
           </p>
         </div>
         <!-- Useful links section -->
@@ -168,7 +168,7 @@
                 />
               </svg>
             </span>
-            mosebitdynamic@gmail.com
+            morsebitdynamic@gmail.com
           </p>
           <p class="mb-4 flex items-center justify-center md:justify-start">
             <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
@@ -193,7 +193,7 @@
     <!--Copyright section-->
     <div class="bg-black/5 p-6 text-center">
       <span>&copy; 2024 </span>
-      <a class="font-semibold" href="https://tw-elements.com/"
+      <a class="font-semibold" href="https://morsebit.vercel.app/"
         >MORSEBIT | All rights reserved. &trade;</a
       >
     </div>
