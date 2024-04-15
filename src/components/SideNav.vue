@@ -1,12 +1,12 @@
 <template>
   <nav
-    class="flex flex-col fixed top-0 text-slate-100 w-screen text-slate-100 font-medium text-leading pb-2.5"
+    class="flex flex-col fixed top-0 text-slate-100 w-screen text-slate-100 font-medium text-leading pb-2.5 z-50"
     style="background-color: #1b1b1b"
   >
     <div class="mx-auto mb-1">
-      <RouterLink to="/">
+      <router-link to="/">
         <img class="w-44" src="/images/morsebit-logo.png" alt="morsebit logo" />
-      </RouterLink>
+      </router-link>
     </div>
     <div class="flex justify-end mx-3">
       <a
@@ -41,27 +41,27 @@
       <div class="offcanvas-body">
         <div class="pb-3 mx-auto">
           <div class="flex flex-col">
-            <RouterLink
+            <router-link
               to="/products"
               href="#"
               class="my-3 relative text-xs w-fit block after:block after:content-[''] after:absolute after:h-[2px] hover:text-orange-400 after:bg-orange-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
             >
               <span class="hover:text-orange-400">/// PRODUCTS</span>
-            </RouterLink>
-            <RouterLink
+            </router-link>
+            <router-link
               to="/products"
               href="#"
               class="my-3 relative text-xs w-fit block after:block after:content-[''] after:absolute after:h-[2px] hover:text-orange-400 after:bg-orange-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
             >
               <span class="hover:text-orange-400">/// ABOUT</span>
-            </RouterLink>
-            <RouterLink
+            </router-link>
+            <router-link
               to="/products"
               href="#"
               class="my-3 relative text-xs w-fit block after:block after:content-[''] after:absolute after:h-[2px] hover:text-orange-400 after:bg-orange-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
             >
               <span class="hover:text-orange-400">/// CONTACT</span>
-            </RouterLink>
+            </router-link>
           </div>
         </div>
       </div>
@@ -73,13 +73,13 @@
             src="/images/logo-icon.png"
             alt="morsebit logo"
           />
-          <p class="text-xs">© 2024 MORSEBIT™</p>
+          <p class="text-xs">&copy; 2024 MORSEBIT &trade;</p>
         </div>
       </div>
     </div>
   </nav>
 </template>
 
-<script setup></script>
+<script></script>
 
 <style></style>

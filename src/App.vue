@@ -1,7 +1,15 @@
 <template>
   <div class="overflow-hidden">
-    <RouterView v-if="!isLoading" />
-    <loading-animation v-if="isLoading"></loading-animation>
+    <div v-if="isLoading">
+      <LoadingAnimation />
+    </div>
+    <div v-else>
+      <router-view v-slot="{ Component }">
+        <transition name="fade" mode="out-in">
+          <component :is="Component"></component>
+        </transition>
+      </router-view>
+    </div>
   </div>
 </template>
 
@@ -24,3 +32,14 @@ export default {
   },
 };
 </script>
+
+<style>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>

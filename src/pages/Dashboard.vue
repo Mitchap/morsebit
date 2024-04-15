@@ -19,13 +19,13 @@
       </p>
     </div>
     <div class="center-center sm:mt-6">
-      <RouterLink to="/products">
+      <router-link to="/products">
         <a class="btn-glitch-fill text-lg lg:text-xl">
           <span class="text"
             >// <span class="text-decoration">_</span> dive in</span
           ><span class="decoration">&rArr;</span>
         </a>
-      </RouterLink>
+      </router-link>
     </div>
   </div>
 </template>
