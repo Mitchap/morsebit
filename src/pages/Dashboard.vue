@@ -1,31 +1,33 @@
 <template>
-  <div
-    id="banner"
-    ref="vantaRef"
-    style="height: 100vh; overflow: hidden !important"
-  >
-    <img
-      class="mx-auto w-44 lg:w-52"
-      src="/images/morsebit-logo.png"
-      alt="morsebit logo"
-    />
+  <div>
+    <div
+      id="banner"
+      ref="vantaRef"
+      style="height: 100vh; overflow: hidden !important"
+    >
+      <img
+        class="mx-auto w-44 lg:w-52"
+        src="/images/morsebit-logo.png"
+        alt="morsebit logo"
+      />
 
-    <div class="relative h-4/6 flex items-center justify-center">
-      <p class="md:text-xl lg:text-4xl text-neutral-200 font-mono">
-        <span class="p-4 bg-neutral-900/75">
-          System_All:
-          <span class="pulsate font-bold text-red-800">•OFFLINE</span>
-        </span>
-      </p>
-    </div>
-    <div class="center-center sm:mt-6">
-      <router-link to="/products">
-        <a class="btn-glitch-fill text-lg lg:text-xl">
-          <span class="text"
-            >// <span class="text-decoration">_</span> dive in</span
-          ><span class="decoration">&rArr;</span>
-        </a>
-      </router-link>
+      <div class="relative h-4/6 flex items-center justify-center">
+        <p class="md:text-xl lg:text-4xl text-neutral-200 font-mono">
+          <span class="p-4 bg-neutral-900/75">
+            System_All:
+            <span class="pulsate font-bold text-red-800">•OFFLINE</span>
+          </span>
+        </p>
+      </div>
+      <div class="center-center sm:mt-6">
+        <router-link to="/products">
+          <a class="btn-glitch-fill text-lg lg:text-xl">
+            <span class="text"
+              >// <span class="text-decoration">_</span> dive in</span
+            ><span class="decoration">&rArr;</span>
+          </a>
+        </router-link>
+      </div>
     </div>
   </div>
 </template>

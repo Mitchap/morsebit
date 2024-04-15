@@ -43,3 +43,52 @@ export default {
   opacity: 0;
 }
 </style>
+
+<!-- <template>
+  <div class="overflow-hidden">
+    <RouterView v-if="!isLoading" />
+    <loading-animation v-if="isLoading"></loading-animation>
+  </div>
+</template>
+
+<script>
+import LoadingAnimation from "./components/LoadingAnimation.vue";
+
+export default {
+  data() {
+    return {
+      isLoading: true,
+    };
+  },
+  components: {
+    LoadingAnimation,
+  },
+  mounted() {
+    setTimeout(() => {
+      this.isLoading = false;
+    }, 200);
+  },
+};
+</script> -->
+
+<!-- 
+<template>
+  <div class="overflow-hidden">
+    <router-view v-slot="{ Component }">
+      <transition name="fade" mode="out-in">
+        <component :is="Component"></component>
+      </transition>
+    </router-view>
+  </div>
+</template>
+
+<style>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+</style> -->
