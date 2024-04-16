@@ -1,10 +1,6 @@
 <template>
   <div>
-    <div
-      id="banner"
-      ref="vantaRef"
-      style="height: 100vh; overflow: hidden !important"
-    >
+    <div id="home" ref="vantaRef" class="overflow-hidden h-screen">
       <img
         class="mx-auto w-44 lg:w-52"
         src="/images/morsebit-logo.png"
