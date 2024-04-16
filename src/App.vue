@@ -1,8 +1,21 @@
 <template>
-  <div class="overflow-hidden">
+  <div>
+    <!-- Navbar component, only displayed on certain routes -->
+    <div class="hidden md:block" v-if="shouldShowNavbar">
+      <Navbar />
+    </div>
+
+    <!-- SideNav component, only displayed on certain routes -->
+    <div class="block md:hidden" v-if="shouldShowSideNav">
+      <SideNav />
+    </div>
+
+    <!-- Loading animation, displayed while loading -->
     <div v-if="isLoading">
       <LoadingAnimation />
     </div>
+
+    <!-- Main content area -->
     <div v-else>
       <router-view v-slot="{ Component }">
         <transition name="fade" mode="out-in">
@@ -10,27 +23,35 @@
         </transition>
       </router-view>
     </div>
+
+    <!-- Footer component, only displayed on certain routes -->
+    <div v-if="shouldShowFooter">
+      <TheFooter />
+    </div>
   </div>
 </template>
 
-<script>
-import LoadingAnimation from "./components/LoadingAnimation.vue";
+<script setup>
+import { ref, computed } from "vue";
+import { useRoute } from "vue-router";
+import Navbar from "@/components/Navbar.vue";
+import SideNav from "@/components/SideNav.vue";
+import TheFooter from "@/components/TheFooter.vue";
+import LoadingAnimation from "@/components/LoadingAnimation.vue";
 
-export default {
-  data() {
-    return {
-      isLoading: true,
-    };
-  },
-  components: {
-    LoadingAnimation,
-  },
-  mounted() {
-    setTimeout(() => {
-      this.isLoading = false;
-    }, 200);
-  },
-};
+const route = useRoute();
+
+const isLoading = ref(true);
+
+// Compute whether each component should be shown based on the current route
+const shouldShowNavbar = computed(() => route.path !== "/dashboard");
+const shouldShowSideNav = computed(() => route.path !== "/dashboard");
+const shouldShowFooter = computed(() => route.path !== "/dashboard");
+
+// Simulate loading process
+setTimeout(() => {
+  isLoading.value = false;
+}, 200);
 </script>
 
 <style>

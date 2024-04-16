@@ -119,18 +119,18 @@
             Service Links
           </h6>
 
-          <p class="mb-4 hover:text-orange-400">
-            <a href="/faqs">FAQs</a>
-          </p>
-          <p class="mb-4 hover:text-orange-400">
-            <a href="/privacypolicy">Privacy Policy</a>
-          </p>
-          <p class="mb-4 hover:text-orange-400">
-            <a href="/returnpolicy">Return Policy</a>
-          </p>
-          <p class="mb-4 hover:text-orange-400">
-            <a href="/terms">Terms of Service</a>
-          </p>
+          <a href="/faqs">
+            <p class="mb-4 hover:text-orange-400">FAQs</p>
+          </a>
+          <a href="/privacypolicy">
+            <p class="mb-4 hover:text-orange-400">Privacy Policy</p>
+          </a>
+          <a href="/returnpolicy">
+            <p class="mb-4 hover:text-orange-400">Return Policy</p>
+          </a>
+          <a href="/terms">
+            <p class="mb-4 hover:text-orange-400">Terms of Service</p>
+          </a>
         </div>
         <!-- Contact section -->
         <div>

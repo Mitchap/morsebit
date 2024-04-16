@@ -1,12 +1,5 @@
 <template>
   <div>
-    <div class="hidden md:block">
-      <Navbar />
-    </div>
-    <div class="block md:hidden">
-      <SideNav />
-    </div>
-
     <main class="mt-28 h-full" style="background-color: #fefefe">
       <div class="text-center p-5 text-white bg-black">
         <h1 class="text-xl font-medium uppercase">product categories</h1>
@@ -81,16 +74,9 @@
         </div>
       </div>
     </main>
-    <div>
-      <TheFooter />
-    </div>
   </div>
 </template>
 
-<script setup>
-import Navbar from "@/components/Navbar.vue";
-import SideNav from "@/components/SideNav.vue";
-import TheFooter from "@/components/TheFooter.vue";
-</script>
+<script setup></script>
 
 <style></style>

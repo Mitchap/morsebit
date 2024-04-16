@@ -41,27 +41,24 @@
       <div class="offcanvas-body">
         <div class="pb-3 mx-auto">
           <div class="flex flex-col">
-            <router-link
-              to="/products"
-              href="#"
+            <a
+              href="/products"
               class="my-3 relative text-xs w-fit block after:block after:content-[''] after:absolute after:h-[2px] hover:text-orange-400 after:bg-orange-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
             >
               <span class="hover:text-orange-400">/// PRODUCTS</span>
-            </router-link>
-            <router-link
-              to="/about"
-              href="#"
+            </a>
+            <a
+              href="/about"
               class="my-3 relative text-xs w-fit block after:block after:content-[''] after:absolute after:h-[2px] hover:text-orange-400 after:bg-orange-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
             >
               <span class="hover:text-orange-400">/// ABOUT</span>
-            </router-link>
-            <router-link
-              to="/contact"
-              href="#"
+            </a>
+            <a
+              href="/contact"
               class="my-3 relative text-xs w-fit block after:block after:content-[''] after:absolute after:h-[2px] hover:text-orange-400 after:bg-orange-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
             >
               <span class="hover:text-orange-400">/// CONTACT</span>
-            </router-link>
+            </a>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="home" ref="vantaRef" class="overflow-hidden h-screen">
+    <div id="home" ref="vantaRef" class="h-screen">
       <img
         class="mx-auto w-44 lg:w-52"
         src="/images/morsebit-logo.png"
