@@ -15,7 +15,7 @@
       <div class="flex justify-center">
         <a
           href="https://www.facebook.com/profile.php?id=61556112509152"
-          class="me-6 [&>svg]:h-4 [&>svg]:w-4"
+          class="me-6 [&>svg]:h-4 [&>svg]:w-4 hover:text-orange-400"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@
         <!-- gmail -->
         <a
           href="mailto:morsebitdynamic@gmail.com"
-          class="me-6 [&>svg]:h-4 [&>svg]:w-4"
+          class="me-6 [&>svg]:h-4 [&>svg]:w-4 hover:text-orange-400"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@
           </svg>
         </a>
         <!-- linked in -->
-        <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+        <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4 hover:text-orange-400">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -55,7 +55,10 @@
           </svg>
         </a>
         <!-- github -->
-        <a href="#!" class="[&>svg]:h-4 [&>svg]:w-4">
+        <a
+          href="https://github.com/Mitchap/"
+          class="[&>svg]:h-4 [&>svg]:w-4 hover:text-orange-400"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -98,13 +101,13 @@
           >
             Products
           </h6>
-          <p class="mb-4">
+          <p class="mb-4 hover:text-orange-400 hover:text-orange-400">
             <a href="#!">Dynamic Belt System</a>
           </p>
-          <p class="mb-4">
+          <p class="mb-4 hover:text-orange-400 hover:text-orange-400">
             <a href="#!">Messenger Sling System</a>
           </p>
-          <p>
+          <p class="hover:text-orange-400 hover:text-orange-400">
             <a href="#!">Custom Accessories</a>
           </p>
         </div>
@@ -116,16 +119,16 @@
             Service Links
           </h6>
 
-          <p class="mb-4">
+          <p class="mb-4 hover:text-orange-400">
             <a href="#!">FAQs</a>
           </p>
-          <p class="mb-4">
+          <p class="mb-4 hover:text-orange-400">
             <a href="#!">Privacy Policy</a>
           </p>
-          <p class="mb-4">
+          <p class="mb-4 hover:text-orange-400">
             <a href="#!">Return Policy</a>
           </p>
-          <p class="mb-4">
+          <p class="mb-4 hover:text-orange-400">
             <a href="#!">Terms of Service</a>
           </p>
         </div>

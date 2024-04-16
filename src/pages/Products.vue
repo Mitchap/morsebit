@@ -7,80 +7,75 @@
       <SideNav />
     </div>
 
-    <main class="py-32 h-full" style="background-color: #fefefe">
+    <main class="mt-28 h-full" style="background-color: #fefefe">
+      <section id="banner">
+        <div
+          class="d-flex align-items-center justify-content-center"
+          style="height: 100%"
+        ></div>
+      </section>
       <div class="flex flex-col lg:flex-row">
         <div
-          class="mx-auto my-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          class="mx-auto my-5 max-w-sm bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700"
         >
-          <a href="#">
-            <img
-              class="rounded-t-lg"
-              src="/images/products/image3.png"
-              alt=""
-            />
+          <a href="#" class="">
+            <div class="relative text-center">
+              <img
+                class="object-cover w-80 h-96"
+                src="/images/products/image6.jpg"
+                alt=""
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-75"
+              ></div>
+              <div class="absolute bottom-0 w-full">
+                <h1 class="text-white text-base bg-black p-3 fw-medium">
+                  DYNAMIC BELT SYSTEM
+                </h1>
+              </div>
+            </div>
           </a>
-          <div class="p-5">
-            <a href="#">
-              <h5
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-              >
-                Hatdog sa ref ng ofw 2021
-              </h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Cyka Blyat Lo siento no hablo ingles nyet nyet nyet
-            </p>
-          </div>
         </div>
 
         <div
-          class="mx-auto my-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          class="mx-auto my-5 max-w-sm bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700"
         >
-          <a href="#">
-            <img
-              class="rounded-t-lg"
-              src="/images/products/image1.png"
-              alt=""
-            />
+          <a href="#" class="">
+            <div class="relative text-center">
+              <img
+                class="object-cover w-80 h-96"
+                src="/images/products/image4.png"
+                alt=""
+              />
+              <div class="absolute bottom-0 w-full">
+                <h1 class="text-white text-base bg-black p-3 fw-medium">
+                  MESSENGER SLING SYSTEM
+                </h1>
+              </div>
+            </div>
           </a>
-          <div class="p-5">
-            <a href="#">
-              <h5
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-              >
-                Ding Dong Ding Dong
-              </h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Hark how the bells Sweet silver bells All seem to say Throw cares
-              away
-            </p>
-          </div>
         </div>
 
         <div
-          class="mx-auto my-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          class="mx-auto my-5 max-w-sm bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700"
         >
-          <a href="#">
-            <img
-              class="rounded-t-lg"
-              src="/images/products/image2.png"
-              alt=""
-            />
+          <a href="#" class="">
+            <div class="relative text-center">
+              <img
+                class="object-cover w-80 h-96"
+                src="/images/products/image5.jpg"
+                alt=""
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-35"
+              ></div>
+              <div class="absolute bottom-0 w-full">
+                <h1 class="text-white text-base bg-black p-3 fw-medium">
+                  CUSTOM ACCESSORIES
+                </h1>
+              </div>
+            </div>
           </a>
-          <div class="p-5">
-            <a href="#">
-              <h5
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-              >
-                Gerard show me da Way
-              </h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              When I was a young boy My father took me into the city To see a
-              marching band
-            </p>
-          </div>
         </div>
       </div>
     </main>
@@ -96,4 +91,13 @@ import SideNav from "@/components/SideNav.vue";
 import TheFooter from "@/components/TheFooter.vue";
 </script>
 
-<style></style>
+<style>
+#banner {
+  background: url(../images/banner2.png);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 50vh;
+  margin-bottom: 50px;
+}
+</style>
