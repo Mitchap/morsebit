@@ -7,7 +7,7 @@
       <SideNav />
     </div>
     <main class="py-32 h-full" style="background-color: #fefefe">
-      <h1 class="text-center font-bold text-4xl uppercase">about page</h1>
+      <h1 class="text-center font-bold text-4xl uppercase">Privacy Policy</h1>
       <p class="text-center mt-5 text-lg font-medium">
         Never gonna give you up <br />
         Never gonna let you down <br />

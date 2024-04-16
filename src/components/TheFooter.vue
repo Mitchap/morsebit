@@ -56,7 +56,7 @@
         </a>
         <!-- github -->
         <a
-          href="https://github.com/Mitchap/"
+          href="https://github.com/Mitcha/"
           class="[&>svg]:h-4 [&>svg]:w-4 hover:text-orange-400"
         >
           <svg
@@ -120,16 +120,16 @@
           </h6>
 
           <p class="mb-4 hover:text-orange-400">
-            <a href="#!">FAQs</a>
+            <a href="/faqs">FAQs</a>
           </p>
           <p class="mb-4 hover:text-orange-400">
-            <a href="#!">Privacy Policy</a>
+            <a href="/privacypolicy">Privacy Policy</a>
           </p>
           <p class="mb-4 hover:text-orange-400">
-            <a href="#!">Return Policy</a>
+            <a href="/returnpolicy">Return Policy</a>
           </p>
           <p class="mb-4 hover:text-orange-400">
-            <a href="#!">Terms of Service</a>
+            <a href="/terms">Terms of Service</a>
           </p>
         </div>
         <!-- Contact section -->

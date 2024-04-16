@@ -3,6 +3,10 @@ import Dashboard from "@/pages/Dashboard.vue";
 import Products from "@/pages/Products.vue";
 import About from "@/pages/About.vue";
 import Contact from "@/pages/Contact.vue";
+import FAQS from "@/pages/FAQS.vue";
+import PrivacyPolicy from "@/pages/PrivacyPolicy.vue";
+import ReturnPolicy from "@/pages/ReturnPolicy.vue";
+import Terms from "@/pages/Terms.vue";
 
  // Unique keys are added to ensure remount of pages
 const router = createRouter({
@@ -11,22 +15,42 @@ const router = createRouter({
     {
       path: '/dashboard',
       component: Dashboard,
-      props: { key: "dashboard" }, // Unique key for the Dashboard route
+      props: { key: "dashboard" }, 
     },
     {
       path: '/products',
       component: Products,
-      props: { key: "products" }, // Unique key for the Products route
+      props: { key: "products" }, 
     },
     {
       path: '/about',
       component: About,
-      props: { key: "about" }, // Unique key for the About route
+      props: { key: "about" }, 
     },
-        {
+    {
       path: '/contact',
       component: Contact,
-      props: { key: "contact" }, // Unique key for the Contact route
+      props: { key: "contact" }, 
+    },
+    {
+      path: '/faqs',
+      component: FAQS,
+      props: { key: "faqs" }, 
+    },
+    {
+      path: '/privacypolicy',
+      component: PrivacyPolicy,
+      props: { key: "privacypolicy" }, 
+    },
+    {
+      path: '/returnpolicy',
+      component: ReturnPolicy,
+      props: { key: "returnpolicy" }, 
+    },
+    {
+      path: '/terms',
+      component: Terms,
+      props: { key: "terms" }, 
     },
     {
       path: '/',
