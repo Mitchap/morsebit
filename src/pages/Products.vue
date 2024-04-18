@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main class="mt-28 h-full" style="background-color: #fefefe">
+    <main class="mt-28 pb-28 h-full" style="background-color: #fefefe">
       <ProductCarousel />
 
       <div class="text-center p-5 text-white bg-black">
@@ -15,7 +15,7 @@
         >
           <a href="#" class="">
             <div
-              class="text-center transform transition-transform duration-300 lg:hover:scale-105"
+              class="text-zinc-100 hover:text-orange-400 text-center transform transition-transform duration-300 lg:hover:scale-105"
             >
               <img
                 class="object-cover w-80 h-96"
@@ -24,7 +24,7 @@
               />
 
               <div class="w-full">
-                <h1 class="text-white text-base bg-black p-3 font-medium">
+                <h1 class="text-base bg-black p-3 font-medium">
                   DYNAMIC BELT SYSTEM
                 </h1>
               </div>
@@ -37,7 +37,7 @@
         >
           <a href="#" class="">
             <div
-              class="text-center transform transition-transform duration-300 lg:hover:scale-105"
+              class="text-zinc-100 hover:text-orange-400 text-center transform transition-transform duration-300 lg:hover:scale-105"
             >
               <img
                 class="object-cover w-80 h-96"
@@ -45,7 +45,7 @@
                 alt=""
               />
               <div class="w-full">
-                <h1 class="text-white text-base bg-black p-3 font-medium">
+                <h1 class="text-base bg-black p-3 font-medium">
                   MESSENGER SLING SYSTEM
                 </h1>
               </div>
@@ -56,7 +56,7 @@
         <div
           class="mx-auto my-5 max-w-sm bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700"
         >
-          <a href="#" class="">
+          <a href="#" class="text-zinc-100 hover:text-orange-400">
             <div
               class="text-center transform transition-transform duration-300 lg:hover:scale-105"
             >
@@ -67,7 +67,7 @@
               />
 
               <div class="w-full">
-                <h1 class="text-white text-base bg-black p-3 font-medium">
+                <h1 class="text-base bg-black p-3 font-medium">
                   CUSTOM ACCESSORIES
                 </h1>
               </div>
@@ -81,7 +81,6 @@
 
 <script setup>
 import ProductCarousel from "@/components/ProductCarousel.vue";
-import productCarousel from "@/components/ProductCarousel.vue";
 </script>
 
 <style></style>

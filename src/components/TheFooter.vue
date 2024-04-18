@@ -82,12 +82,11 @@
           >
             <span class="me-3 [&>svg]:h-4 [&>svg]:w-4">
               <img
-                class="w-7 mx-auto opacity-80gi"
-                src="/images/logo-icon.png"
+                class="w-56 lg:w-64 mx-auto"
+                src="/images/logo-side.png"
                 alt="morsebit logo"
               />
             </span>
-            MORSEBIT™
           </h6>
           <p>
             Synthesizing function with avant-garde style. Integrating synthesis
