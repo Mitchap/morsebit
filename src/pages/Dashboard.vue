@@ -16,13 +16,13 @@
         </p>
       </div>
       <div class="center-center sm:mt-6">
-        <router-link to="/products">
-          <a class="btn-glitch-fill text-lg lg:text-xl">
-            <span class="text"
-              >// <span class="text-decoration">_</span> dive in</span
-            ><span class="decoration">&rArr;</span>
-          </a>
-        </router-link>
+        <!-- <router-link to="/products"> -->
+        <a href="/products" class="btn-glitch-fill text-lg lg:text-xl">
+          <span class="text"
+            >// <span class="text-decoration">_</span> dive in</span
+          ><span class="decoration">&rArr;</span>
+        </a>
+        <!-- </router-link> -->
       </div>
     </div>
   </div>
