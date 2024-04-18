@@ -9,27 +9,37 @@
     class="carousel slide carousel-fade"
     data-bs-ride="carousel"
   >
-    <div class="carousel-indicators flex justify-end">
-      <button
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide-to="0"
-        class="active"
-        aria-current="true"
-        aria-label="Slide 1"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide-to="1"
-        aria-label="Slide 2"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide-to="2"
-        aria-label="Slide 3"
-      ></button>
+    <div class="carousel-indicators flex justify-end grid">
+      <div class="col-start-1">
+        <a
+          href="#"
+          type="button"
+          class="text-zinc-100 text-xs lg:text-base px-4 py-2 transition bg-black/90 hover:bg-neutral-800 uppercase"
+          >shop now</a
+        >
+      </div>
+      <div class="col-start-1 text-center">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
     </div>
     <!-- carousel images -->
     <div class="carousel-inner">
@@ -39,14 +49,6 @@
           class="d-block w-100"
           alt="..."
         />
-        <div class="carousel-caption flex justify-end">
-          <a
-            href="#"
-            type="button"
-            class="text-zinc-100 text-xs lg:text-base px-4 py-2 transition bg-black/90 hover:bg-neutral-800 uppercase"
-            >shop now</a
-          >
-        </div>
       </div>
       <div class="carousel-item" data-bs-interval="2000">
         <img
@@ -54,14 +56,14 @@
           class="d-block w-100"
           alt="..."
         />
-        <div class="carousel-caption flex justify-end">
+        <!-- <div class="carousel-caption flex justify-end">
           <a
             href="#"
             type="button"
             class="zinc-100 text-xs lg:text-base px-4 py-2 transition bg-black/90 hover:bg-neutral-800 uppercase"
             >shop now</a
           >
-        </div>
+        </div> -->
       </div>
       <div class="carousel-item" data-bs-interval="2000">
         <img
@@ -69,14 +71,14 @@
           class="d-block w-100"
           alt="..."
         />
-        <div class="carousel-caption flex justify-end">
+        <!-- <div class="carousel-caption flex justify-end">
           <a
             href="#"
             type="button"
             class="zinc-100 text-xs lg:text-base px-4 py-2 transition bg-black/90 hover:bg-neutral-800 uppercase"
             >shop now</a
           >
-        </div>
+        </div> -->
       </div>
     </div>
     <button
