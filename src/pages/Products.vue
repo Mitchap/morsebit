@@ -1,11 +1,13 @@
 <template>
   <div>
     <main class="mt-28 h-full" style="background-color: #fefefe">
+      <ProductCarousel />
+
       <div class="text-center p-5 text-white bg-black">
-        <h1 class="text-xl font-medium uppercase">product categories</h1>
-        <p class="text-base mt-1">
-          A collective showcase of equipments offered
-        </p>
+        <h1 class="text-base lg:text-lg font-medium uppercase">
+          product categories
+        </h1>
+        <p class="text-sm mt-1">A collective showcase of equipments offered</p>
       </div>
       <div class="flex flex-col lg:flex-row">
         <div
@@ -13,7 +15,7 @@
         >
           <a href="#" class="">
             <div
-              class="relative text-center transform transition-transform duration-300 hover:scale-110"
+              class="relative text-center transform transition-transform duration-300 hover:scale-105"
             >
               <img
                 class="object-cover w-80 h-96"
@@ -35,7 +37,7 @@
         >
           <a href="#" class="">
             <div
-              class="relative text-center transform transition-transform duration-300 hover:scale-110"
+              class="relative text-center transform transition-transform duration-300 hover:scale-105"
             >
               <img
                 class="object-cover w-80 h-96"
@@ -56,7 +58,7 @@
         >
           <a href="#" class="">
             <div
-              class="relative text-center transform transition-transform duration-300 hover:scale-110"
+              class="relative text-center transform transition-transform duration-300 hover:scale-105"
             >
               <img
                 class="object-cover w-80 h-96"
@@ -77,6 +79,9 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import ProductCarousel from "@/components/ProductCarousel.vue";
+import productCarousel from "@/components/ProductCarousel.vue";
+</script>
 
 <style></style>
