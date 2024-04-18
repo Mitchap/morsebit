@@ -15,7 +15,7 @@
         >
           <a href="#" class="">
             <div
-              class="text-center transform transition-transform duration-300 hover:scale-105"
+              class="text-center transform transition-transform duration-300 lg:hover:scale-105"
             >
               <img
                 class="object-cover w-80 h-96"
@@ -37,7 +37,7 @@
         >
           <a href="#" class="">
             <div
-              class="text-center transform transition-transform duration-300 hover:scale-105"
+              class="text-center transform transition-transform duration-300 lg:hover:scale-105"
             >
               <img
                 class="object-cover w-80 h-96"
@@ -58,7 +58,7 @@
         >
           <a href="#" class="">
             <div
-              class="text-center transform transition-transform duration-300 hover:scale-105"
+              class="text-center transform transition-transform duration-300 lg:hover:scale-105"
             >
               <img
                 class="object-cover w-80 h-96"

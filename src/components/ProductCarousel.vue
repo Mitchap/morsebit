@@ -14,7 +14,7 @@
         <a
           href="#"
           type="button"
-          class="text-zinc-100 text-xs lg:text-base px-4 py-2 transition bg-black/90 hover:bg-neutral-800 uppercase"
+          class="text-zinc-100 text-xs lg:text-base font-medium px-4 py-2 transition bg-black/90 hover:bg-orange-400 hover:text-black uppercase"
           >shop now</a
         >
       </div>
@@ -56,14 +56,6 @@
           class="d-block w-100"
           alt="..."
         />
-        <!-- <div class="carousel-caption flex justify-end">
-          <a
-            href="#"
-            type="button"
-            class="zinc-100 text-xs lg:text-base px-4 py-2 transition bg-black/90 hover:bg-neutral-800 uppercase"
-            >shop now</a
-          >
-        </div> -->
       </div>
       <div class="carousel-item" data-bs-interval="2000">
         <img
@@ -71,14 +63,6 @@
           class="d-block w-100"
           alt="..."
         />
-        <!-- <div class="carousel-caption flex justify-end">
-          <a
-            href="#"
-            type="button"
-            class="zinc-100 text-xs lg:text-base px-4 py-2 transition bg-black/90 hover:bg-neutral-800 uppercase"
-            >shop now</a
-          >
-        </div> -->
       </div>
     </div>
     <button
