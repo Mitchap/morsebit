@@ -9,7 +9,12 @@ import ReturnPolicy from "@/pages/ReturnPolicy.vue";
 import Terms from "@/pages/Terms.vue";
 
  // Unique keys are added to ensure remount of pages
-const router = createRouter({
+const router = createRouter({ 
+  scrollBehavior(to, from, savedPosition) {
+    // always scroll to top
+    return { top: 0 }
+  },
+
   history: createWebHistory(),
   routes: [
     {

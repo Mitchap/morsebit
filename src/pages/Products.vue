@@ -9,70 +9,62 @@
         </h1>
         <p class="text-sm mt-1">A collective showcase of equipments offered</p>
       </div>
+
       <div class="flex flex-col lg:flex-row">
         <div
           class="mx-auto my-5 max-w-sm bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700"
         >
-          <a href="#" class="">
-            <div
-              class="text-zinc-100 hover:text-orange-400 text-center transform transition-transform duration-300 lg:hover:scale-105"
-            >
+          <div class="text-zinc-100 hover:text-orange-400 text-center">
+            <div class="overflow-hidden">
               <img
-                class="object-cover w-80 h-96"
                 src="/images/products/image6.jpg"
-                alt=""
+                class="hover:scale-110 transition duration-500 cursor-pointer object-cover w-80 h-96"
               />
-
-              <div class="w-full">
-                <h1 class="text-base bg-black p-3 font-medium">
-                  DYNAMIC BELT SYSTEM
-                </h1>
-              </div>
             </div>
-          </a>
+
+            <div class="w-full">
+              <h1 class="text-base bg-black p-3 font-medium">
+                DYNAMIC BELT SYSTEMS
+              </h1>
+            </div>
+          </div>
         </div>
 
         <div
           class="mx-auto my-5 max-w-sm bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700"
         >
-          <a href="#" class="">
-            <div
-              class="text-zinc-100 hover:text-orange-400 text-center transform transition-transform duration-300 lg:hover:scale-105"
-            >
+          <div class="text-zinc-100 hover:text-orange-400 text-center">
+            <div class="overflow-hidden">
               <img
-                class="object-cover w-80 h-96"
                 src="/images/products/image4.png"
-                alt=""
+                class="hover:scale-110 transition duration-500 cursor-pointer object-cover w-80 h-96"
               />
-              <div class="w-full">
-                <h1 class="text-base bg-black p-3 font-medium">
-                  MESSENGER SLING SYSTEM
-                </h1>
-              </div>
             </div>
-          </a>
-        </div>
 
+            <div class="w-full">
+              <h1 class="text-base bg-black p-3 font-medium">
+                MESSENGER SLING SYSTEMS
+              </h1>
+            </div>
+          </div>
+        </div>
         <div
           class="mx-auto my-5 max-w-sm bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700"
         >
-          <a href="#" class="text-zinc-100 hover:text-orange-400">
-            <div
-              class="text-center transform transition-transform duration-300 lg:hover:scale-105"
-            >
+          <div class="text-zinc-100 hover:text-orange-400 text-center">
+            <div class="overflow-hidden">
               <img
-                class="object-cover w-80 h-96"
                 src="/images/products/image5.jpg"
-                alt=""
+                class="hover:scale-110 transition duration-500 cursor-pointer object-cover w-80 h-96"
               />
-
-              <div class="w-full">
-                <h1 class="text-base bg-black p-3 font-medium">
-                  CUSTOM ACCESSORIES
-                </h1>
-              </div>
             </div>
-          </a>
+
+            <div class="w-full">
+              <h1 class="text-base bg-black p-3 font-medium">
+                CUSTOM ACCESSORIES
+              </h1>
+            </div>
+          </div>
         </div>
       </div>
     </main>
