@@ -18,7 +18,7 @@
             <div class="overflow-hidden">
               <img
                 src="/images/products/image6.jpg"
-                class="hover:scale-110 transition duration-500 cursor-pointer object-cover w-80 h-96"
+                class="hover:scale-125 transition duration-[4000ms] cursor-pointer object-cover w-80 h-96"
               />
             </div>
 
@@ -37,7 +37,7 @@
             <div class="overflow-hidden">
               <img
                 src="/images/products/image4.png"
-                class="hover:scale-110 transition duration-500 cursor-pointer object-cover w-80 h-96"
+                class="hover:scale-125 transition duration-[4000ms] cursor-pointer object-cover w-80 h-96"
               />
             </div>
 
@@ -55,7 +55,7 @@
             <div class="overflow-hidden">
               <img
                 src="/images/products/image5.jpg"
-                class="hover:scale-110 transition duration-500 cursor-pointer object-cover w-80 h-96"
+                class="hover:scale-125 transition duration-[4000ms] cursor-pointer object-cover w-80 h-96"
               />
             </div>
 

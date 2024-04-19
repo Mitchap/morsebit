@@ -77,17 +77,15 @@
       <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
         <!-- TW Elements section -->
         <div class="">
-          <h6
-            class="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start"
+          <div
+            class="mt-[-50px] flex items-center justify-center font-semibold uppercase md:justify-start"
           >
-            <span class="me-3 [&>svg]:h-4 [&>svg]:w-4">
-              <img
-                class="w-56 lg:w-64 mx-auto"
-                src="/images/logo-side.png"
-                alt="morsebit logo"
-              />
-            </span>
-          </h6>
+            <img
+              class="w-56 lg:w-64 mx-auto"
+              src="/images/logo-side.png"
+              alt="morsebit logo"
+            />
+          </div>
           <p>
             Synthesizing function with avant-garde style. Integrating synthesis
             into daily wear.
@@ -95,28 +93,28 @@
         </div>
         <!-- Products section -->
         <div>
-          <h6
+          <div
             class="mb-4 flex justify-center font-semibold uppercase md:justify-start"
           >
             Products
-          </h6>
-          <p class="mb-4 hover:text-orange-400 hover:text-orange-400">
+          </div>
+          <p class="mb-4 hover:text-orange-400">
             <a href="#!">Dynamic Belt System</a>
           </p>
-          <p class="mb-4 hover:text-orange-400 hover:text-orange-400">
+          <p class="mb-4 hover:text-orange-400">
             <a href="#!">Messenger Sling System</a>
           </p>
-          <p class="hover:text-orange-400 hover:text-orange-400">
+          <p class="mb-4 hover:text-orange-400">
             <a href="#!">Custom Accessories</a>
           </p>
         </div>
         <!-- Useful links section -->
         <div>
-          <h6
+          <div
             class="mb-4 flex justify-center font-semibold uppercase md:justify-start"
           >
             Service Links
-          </h6>
+          </div>
 
           <a href="/faqs">
             <p class="mb-4 hover:text-orange-400">FAQs</p>
@@ -133,11 +131,11 @@
         </div>
         <!-- Contact section -->
         <div>
-          <h6
+          <div
             class="mb-4 flex justify-center font-semibold uppercase md:justify-start"
           >
             Contact
-          </h6>
+          </div>
           <p class="mb-4 flex items-center justify-center md:justify-start">
             <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
               <svg
