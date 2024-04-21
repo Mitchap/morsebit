@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Dynamic Belt - System 1",
+    "route": "/DBS1",
+    "price": "₱399",
+    "color": "Black / Army Green / Custom Request",
+    "imageSrc": "/images/products/dbs1-blk.png",
+    "imageAlt": "Magnetic buckle with black green strap and plastic buckles",
+    "imageSrc1": "/images/products/dbs1-blk.png",
+    "imageAlt1": "Magnetic buckle with black green strap and plastic buckles",
+    "imageSrc2": "/images/products/dbs1-ag.png",
+    "imageAlt2": "Magnetic buckle with army green strap and plastic buckles",
+    "imageSrc3": "/images/products/dbs1-cm.png",
+    "imageAlt3": "Magnetic buckle with army green strap and plastic buckles"
+  },
+  {
+    "id": 2,
+    "name": "Dynamic Belt - System 2",
+    "route": "/DBS2",
+    "price": "₱449",
+    "color": "Black / Army Green",
+    "imageSrc": "/images/products/dbs2-blk.png",
+    "imageAlt": "Magnetic buckle with black green strap and plastic buckles",
+    "imageSrc1": "/images/products/dbs2-blk.png",
+    "imageAlt1": "Magnetic buckle with black green strap and plastic buckles",
+
+    "imageSrc2": "/images/products/dbs2-ag.png",
+    "imageAlt2": "Magnetic buckle with army green strap and plastic buckles"
+  }
+  
+]

@@ -29,6 +29,7 @@
                 class="hover:scale-125 transition duration-[4000ms] cursor-pointer object-cover w-80 h-96"
               />
             </div>
+            <div></div>
 
             <div class="w-full">
               <h1 class="text-base bg-black p-3 font-medium">
@@ -42,7 +43,7 @@
           class="mx-auto my-5 max-w-sm bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700"
         >
           <div class="text-zinc-100 hover:text-orange-400 text-center">
-            <div class="overflow-hidden">
+            <div class="overflow-hidden grid">
               <img
                 src="/images/products/image4.png"
                 class="hover:scale-125 transition duration-[4000ms] cursor-pointer object-cover w-80 h-96"

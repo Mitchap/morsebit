@@ -47,21 +47,21 @@
         <img
           src="/images/products/image1.png"
           class="d-block w-100"
-          alt="..."
+          alt="magnetic belt with brand logo, product name, and disclaimer text"
         />
       </div>
       <div class="carousel-item" data-bs-interval="2000">
         <img
           src="/images/products/image2.png"
           class="d-block w-100"
-          alt="..."
+          alt="magnetic belt with brand logo, product name, and disclaimer text"
         />
       </div>
       <div class="carousel-item" data-bs-interval="2000">
         <img
           src="/images/products/image3.png"
           class="d-block w-100"
-          alt="..."
+          alt="magnetic belt with brand logo, product name, and disclaimer text"
         />
       </div>
     </div>

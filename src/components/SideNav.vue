@@ -16,7 +16,7 @@
         role="button"
         aria-controls="SideNav"
       >
-        [ MENU ]
+        MENU
       </a>
     </div>
 
