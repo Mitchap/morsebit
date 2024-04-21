@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main class="mt-28 pb-28 h-full" style="background-color: #fefefe">
+    <main class="mt-26 pb-28 h-full bg-[#fefefe]">
       <ProductCarousel />
 
       <div class="text-center p-5 text-white bg-black">
@@ -9,7 +9,15 @@
         </h1>
         <p class="text-sm mt-1">A collective showcase of equipments offered</p>
       </div>
-
+      <div class="text-center my-4">
+        <router-link to="/collections">
+          <button
+            class="text-zinc-100 text-xs lg:text-base font-medium px-4 py-2 transition bg-black/90 hover:bg-orange-400 hover:text-black uppercase"
+          >
+            view all
+          </button>
+        </router-link>
+      </div>
       <div class="flex flex-col lg:flex-row">
         <div
           class="mx-auto my-5 max-w-sm bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700"

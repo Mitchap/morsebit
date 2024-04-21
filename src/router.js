@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Dashboard from "@/pages/Dashboard.vue";
 import Products from "@/pages/Products.vue";
+import Collections from "@/pages/Collections.vue";
 import About from "@/pages/About.vue";
 import Contact from "@/pages/Contact.vue";
 import FAQS from "@/pages/FAQS.vue";
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/products',
       component: Products,
       props: { key: "products" }, 
+    },
+    {
+      path: '/collections',
+      component: Collections,
+      props: { key: "collections"},
     },
     {
       path: '/about',

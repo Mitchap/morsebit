@@ -42,6 +42,6 @@
   </nav>
 </template>
 
-<script></script>
+<script setup></script>
 
 <style></style>

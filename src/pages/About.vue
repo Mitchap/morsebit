@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main class="mt-28 py-32 h-full" style="background-color: #fefefe">
+    <main class="mt-28 py-32 h-full bg-[#fefefe]">
       <div>
         <img
           src="/images/logo-and-text.png"

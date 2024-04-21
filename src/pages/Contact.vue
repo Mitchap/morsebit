@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main class="py-32 h-full" style="background-color: #fefefe">
+    <main class="mt-26 py-32 h-full" style="background-color: #fefefe">
       <h1 class="text-center fw-bold text-4xl">contacts page</h1>
       <p class="text-center mt-5 text-lg font-medium">
         Never gonna give you up <br />
