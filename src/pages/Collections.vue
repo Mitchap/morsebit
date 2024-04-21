@@ -40,7 +40,7 @@
 </template>
 
 <script>
-//products.json is in root.
+//products.json is in root directory.
 import productData from "../../products.json";
 
 export default {
