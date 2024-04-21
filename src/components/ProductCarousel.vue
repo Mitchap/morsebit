@@ -45,21 +45,21 @@
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="2000">
         <img
-          src="/images/products/image1.png"
+          src="/images/products/dbs1-blk.png"
           class="d-block w-100"
           alt="magnetic belt with brand logo, product name, and disclaimer text"
         />
       </div>
       <div class="carousel-item" data-bs-interval="2000">
         <img
-          src="/images/products/image2.png"
+          src="/images/products/dbs1-ag.png"
           class="d-block w-100"
           alt="magnetic belt with brand logo, product name, and disclaimer text"
         />
       </div>
       <div class="carousel-item" data-bs-interval="2000">
         <img
-          src="/images/products/image3.png"
+          src="/images/products/dbs1-cm.png"
           class="d-block w-100"
           alt="magnetic belt with brand logo, product name, and disclaimer text"
         />
