@@ -25,7 +25,7 @@
                 />
               </div>
               <h3 class="mt-4 text-md text-gray-700 font-semibold">
-                {{ product.name }}
+                [ {{ product.productID }} ]
               </h3>
 
               <p class="mt-1 text-lg font-medium text-orange-500">

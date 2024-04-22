@@ -11,7 +11,31 @@
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row -mx-4">
           <div class="md:flex-1 px-4">
-            <div id="carouselExample" class="carousel slide mb-4">
+            <div id="carouselIndicators" class="carousel slide mb-4">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselIndicators"
+                  data-bs-slide-to="0"
+                  class="active indicator"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  class="indicator"
+                  data-bs-target="#carouselIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  class="indicator"
+                  data-bs-target="#carouselIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
@@ -27,18 +51,18 @@
                     :alt="selectedProduct.imageAlt2"
                   />
                 </div>
-                <!-- <div class="carousel-item">
+                <div class="carousel-item">
                   <img
                     :src="selectedProduct.imageSrc3"
                     class="d-block w-100"
                     :alt="selectedProduct.imageAlt3"
                   />
-                </div> -->
+                </div>
               </div>
               <button
                 class="carousel-control-prev"
                 type="button"
-                data-bs-target="#carouselExample"
+                data-bs-target="#carouselIndicators"
                 data-bs-slide="prev"
               >
                 <span
@@ -50,7 +74,7 @@
               <button
                 class="carousel-control-next"
                 type="button"
-                data-bs-target="#carouselExample"
+                data-bs-target="#carouselIndicators"
                 data-bs-slide="next"
               >
                 <span
@@ -78,11 +102,17 @@
                 {{ selectedProduct.name }}
               </div>
             </h2>
-            <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">
               <span class="font-bold text-gray-700 dark:text-gray-300"
                 >Colors:
               </span>
               {{ selectedProduct.color }}
+            </p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
+              <span class="font-bold text-gray-700 dark:text-gray-300"
+                >Variant:
+              </span>
+              {{ selectedProduct.variant }}
             </p>
             <div class="flex mb-4">
               <div class="mr-4">
