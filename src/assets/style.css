@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.active {
-    background-color: orange !important;
-}
-
 .indicator {
-    width: 20px !important;
+    width: 15px !important;
 
 }

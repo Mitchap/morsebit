@@ -1,7 +1,6 @@
 <template>
   <nav
-    class="fixed flex flex-col top-0 w-screen text-slate-100 font-medium text-leading z-50"
-    style="background-color: #1b1b1b"
+    class="fixed flex flex-col top-0 w-screen text-slate-100 font-medium z-50 bg-[#1b1b1b]"
   >
     <div class="mx-auto mb-2">
       <router-link to="/">
