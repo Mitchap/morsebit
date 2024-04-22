@@ -47,7 +47,7 @@
             <p
               class="mt-1 text-lg font-medium font-mono text-orange-500 text-decoration"
             >
-            <span>&#8369</span>{{ product.price }}
+              {{ product.price }}
             </p>
           </router-link>
         </div>
