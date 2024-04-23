@@ -5,7 +5,7 @@
     <div class="mx-auto mb-2">
       <router-link to="/">
         <img
-          class="w-44 lg:w-64"
+          class="w-64 h-[70px] py-4 my-2"
           src="/images/morsebit-logo.png"
           alt="morsebit logo"
         />

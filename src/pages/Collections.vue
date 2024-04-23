@@ -22,9 +22,8 @@
           <span
             v-if="filteredProducts.length === 0"
             class="flex items-center justify-center text-gray-500 text-base"
+            >No products found.</span
           >
-            No products found.
-          </span>
           <router-link
             v-for="product in filteredProducts"
             :key="product.id"
@@ -43,11 +42,10 @@
             <h3 class="mt-4 text-md text-gray-700 font-semibold">
               {{ product.name }}
             </h3>
-
             <p
               class="mt-1 text-lg font-medium font-mono text-orange-500 text-decoration"
             >
-              {{ product.price }}
+              {{ formatPrice(product.price) }}
             </p>
           </router-link>
         </div>
@@ -68,10 +66,16 @@ export default {
     };
   },
   computed: {
-    filteredProducts: function () {
-      return this.products.filter((product) => {
-        return product.name.toLowerCase().includes(this.search.toLowerCase());
-      });
+    filteredProducts() {
+      return this.products.filter((product) =>
+        product.name.toLowerCase().includes(this.search.toLowerCase())
+      );
+    },
+  },
+  methods: {
+    formatPrice(price) {
+      // Define a method to format the price with the peso sign.
+      return " ₱" + price;
     },
   },
 };

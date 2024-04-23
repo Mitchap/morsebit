@@ -5,8 +5,11 @@
   >
     <div class="mx-auto mb-1">
       <router-link to="/">
-        <img class="w-44" src="/images/morsebit-logo.png" alt="morsebit logo" />
-      </router-link>
+        <img
+          class="w-44 h-16 py-4 my-2"
+          src="/images/morsebit-logo.png"
+          alt="morsebit logo"
+      /></router-link>
     </div>
     <div class="flex justify-end mx-3">
       <a
