@@ -110,47 +110,33 @@
             </div>
           </div>
           <div class="md:flex-1 px-4">
-            <h2
-              class="text-2xl font-bold text-gray-800 dark:text-white mb-2 uppercase"
-            >
-              <div>
-                {{ selectedProduct.name }}
-              </div>
+            <h2 class="text-2xl font-bold text-[#1b1b1b] mb-2 uppercase">
+              {{ selectedProduct.name }}
             </h2>
-            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">
-              <span class="font-bold text-gray-700 dark:text-gray-300"
-                >Colors:
-              </span>
+            <p class="text-gray-600 text-sm mb-2">
+              <span class="font-bold text-gray-700">Colors: </span>
               {{ selectedProduct.color }}
             </p>
-            <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
-              <span class="font-bold text-gray-700 dark:text-gray-300"
-                >Variant:
-              </span>
+            <p class="text-gray-600text-sm mb-4">
+              <span class="font-bold text-gray-700">Variant: </span>
               {{ selectedProduct.variant }}
             </p>
             <div class="flex mb-4">
               <div class="mr-4">
-                <span class="font-bold text-gray-700 dark:text-gray-300"
-                  >Price:
-                </span>
+                <span class="font-bold text-gray-700">Price: </span>
                 <span class="text-orange-500 font-medium">
                   {{ selectedProduct.price }}</span
                 >
               </div>
               <div>
-                <span class="font-bold text-gray-700 dark:text-gray-300"
-                  >Availability:</span
-                >
-                <span class="text-gray-600 dark:text-gray-300"> In Stock</span>
+                <span class="font-bold text-gray-700">Availability:</span>
+                <span class="text-gray-600"> In Stock</span>
               </div>
             </div>
 
             <div>
-              <span class="font-bold text-gray-700 dark:text-gray-300"
-                >Product Description:</span
-              >
-              <p class="text-gray-600 dark:text-gray-300 text-sm mt-2">
+              <span class="font-bold text-gray-700">Product Description:</span>
+              <p class="text-gray-600 text-sm mt-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
                 ante justo. Integer euismod libero id mauris malesuada
                 tincidunt. Vivamus commodo nulla ut lorem rhoncus aliquet. Duis
