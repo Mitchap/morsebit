@@ -2,7 +2,7 @@
   <div>
     <div id="home" ref="vantaRef" class="h-screen">
       <img
-        class="w-64 h-[70px] py-4 my-2 mx-auto"
+        class="w-44 h-16 lg:w-64 lg:h-[70px] py-4 my-2 mx-auto"
         src="/images/morsebit-logo.png"
         alt="morsebit logo"
       />
@@ -17,11 +17,12 @@
       </div>
       <div class="center-center sm:mt-6">
         <router-link to="/products">
-          <a class="btn-glitch-fill text-lg lg:text-xl">
+          <div class="btn-glitch-fill text-lg lg:text-xl">
             <span class="text"
               >// <span class="text-decoration">_</span> dive in</span
-            ><span class="decoration">&rArr;</span>
-          </a>
+            >
+            <span class="decoration">&rArr;</span>
+          </div>
         </router-link>
       </div>
     </div>

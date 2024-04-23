@@ -3,9 +3,9 @@
     <main class="mt-26 lg:mt-28 py-32 h-full bg-[#fefefe]">
       <div class="flex justify-end me-4 mb-10">
         <RouterLink
-          to="/collections"
+          to="/products"
           class="text-xs lg:text-base font-medium text-gray-900 hover:text-orange-500"
-          >[ BACK ]</RouterLink
+          >[ BACK TO PRODUCTS ]</RouterLink
         >
       </div>
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

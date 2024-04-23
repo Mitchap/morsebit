@@ -1,11 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Dashboard from "@/pages/Dashboard.vue";
+import Index from "@/pages/Index.vue";
 import Products from "@/pages/Products.vue";
-import Collections from "@/pages/Collections.vue";
 import DBS1 from "@/pages/DBS1.vue";
 import DBS2 from "@/pages/DBS2.vue";
 import About from "@/pages/About.vue";
-import Contact from "@/pages/Contact.vue";
 import FAQS from "@/pages/FAQS.vue";
 import PrivacyPolicy from "@/pages/PrivacyPolicy.vue";
 import ReturnPolicy from "@/pages/ReturnPolicy.vue";
@@ -21,19 +19,14 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: "/dashboard",
-      component: Dashboard,
-      props: { key: "dashboard" },
+      path: "/",
+      component: Index,
+      props: { key: "index" },
     },
     {
       path: "/products",
       component: Products,
       props: { key: "products" },
-    },
-    {
-      path: "/collections",
-      component: Collections,
-      props: { key: "collections" },
     },
     {
       path: "/dbs1",
@@ -49,11 +42,6 @@ const router = createRouter({
       path: "/about",
       component: About,
       props: { key: "about" },
-    },
-    {
-      path: "/contact",
-      component: Contact,
-      props: { key: "contact" },
     },
     {
       path: "/faqs",
@@ -77,7 +65,7 @@ const router = createRouter({
     },
     {
       path: "/",
-      redirect: "/dashboard",
+      redirect: "/index",
     },
   ],
 });

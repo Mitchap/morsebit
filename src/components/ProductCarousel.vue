@@ -10,13 +10,16 @@
     data-bs-ride="carousel"
   >
     <div class="carousel-indicators flex justify-end grid">
-      <div class="col-start-1">
-        <router-link
-          to="/collections"
-          type="button"
-          class="text-zinc-100 text-xs lg:text-base font-medium px-4 py-2 transition bg-black/90 hover:bg-orange-400 hover:text-black uppercase"
-          >shop now</router-link
-        >
+      <div class="text-center mb-5 relative">
+        <router-link to="/products">
+          <div class="center-center">
+            <div class="btn-glitch-fill text-lg lg:text-xl">
+              <span class="text"
+                >// <span class="text-decoration">_</span> shop now</span
+              >
+            </div>
+          </div>
+        </router-link>
       </div>
       <div class="col-start-1 text-center">
         <button
