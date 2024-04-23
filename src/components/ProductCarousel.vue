@@ -11,11 +11,11 @@
   >
     <div class="carousel-indicators flex justify-end grid">
       <div class="col-start-1">
-        <a
-          href="#"
+        <router-link
+          to="/collections"
           type="button"
           class="text-zinc-100 text-xs lg:text-base font-medium px-4 py-2 transition bg-black/90 hover:bg-orange-400 hover:text-black uppercase"
-          >shop now</a
+          >shop now</router-link
         >
       </div>
       <div class="col-start-1 text-center">
