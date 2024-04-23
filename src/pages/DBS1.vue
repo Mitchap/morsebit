@@ -125,8 +125,8 @@
               <div class="mr-4">
                 <span class="font-bold text-gray-700">Price: </span>
                 <span class="text-orange-500 font-medium">
-                  {{ formatPrice(selectedProduct.price) }}
-                </span>
+                  ₱{{ selectedProduct.price }}</span
+                >
               </div>
               <div>
                 <span class="font-bold text-gray-700">Availability:</span>
@@ -169,12 +169,6 @@ export default {
       return this.products.find(
         (product) => product.id === this.selectedProductId
       );
-    },
-  },
-  methods: {
-    formatPrice(price) {
-      // Define a method to format the price with the peso sign.
-      return " ₱" + price;
     },
   },
 };

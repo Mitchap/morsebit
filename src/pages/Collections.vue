@@ -43,7 +43,7 @@
               {{ product.name }}
             </h3>
             <p class="mt-1 text-lg font-medium text-orange-500 text-decoration">
-              {{ formatPrice(product.price) }}
+              ₱{{ product.price }}
             </p>
           </router-link>
         </div>
@@ -68,12 +68,6 @@ export default {
       return this.products.filter((product) =>
         product.name.toLowerCase().includes(this.search.toLowerCase())
       );
-    },
-  },
-  methods: {
-    formatPrice(price) {
-      // Define a method to format the price with the peso sign.
-      return " ₱" + price;
     },
   },
 };
