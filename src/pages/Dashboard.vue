@@ -2,7 +2,7 @@
   <div>
     <div id="home" ref="vantaRef" class="h-screen">
       <img
-        class="mx-auto w-44 lg:w-52"
+        class="w-64 h-[70px] py-4 my-2 mx-auto"
         src="/images/morsebit-logo.png"
         alt="morsebit logo"
       />

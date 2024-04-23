@@ -3,7 +3,7 @@
     <main class="mt-26 py-32 h-full bg-[#fefefe]">
       <!-- products list -->
       <div
-        class="fixed w-screen p-2 z-40 bg-[#fefefe] shadow -mt-7 lg:mt-3 flex items-center justify-center"
+        class="fixed w-screen p-2 z-40 bg-[#fefefe] shadow -mt-5 lg:-mt-1 flex items-center justify-center"
       >
         <input
           id="search"
