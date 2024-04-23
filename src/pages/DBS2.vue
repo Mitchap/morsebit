@@ -3,9 +3,9 @@
     <main class="mt-26 lg:mt-28 py-32 h-full bg-[#fefefe]">
       <div class="flex justify-end me-4 mb-10">
         <RouterLink
-          to="/collections"
+          to="/products"
           class="text-xs lg:text-base font-medium text-gray-900 hover:text-orange-500"
-          >[ BACK ]</RouterLink
+          >[ BACK TO PRODUCTS ]</RouterLink
         >
       </div>
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -95,7 +95,9 @@
             </div>
           </div>
           <div class="md:flex-1 px-4">
-            <h2 class="text-2xl font-bold text-[#1b1b1b] mb-2 uppercase">
+            <h2
+              class="text-[22px] lg:text-2xl font-bold text-[#1b1b1b] mb-2 uppercase"
+            >
               {{ selectedProduct.name }}
             </h2>
             <p class="text-gray-600 text-sm mb-2">

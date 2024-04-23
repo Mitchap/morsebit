@@ -110,7 +110,9 @@
             </div>
           </div>
           <div class="md:flex-1 px-4">
-            <h2 class="text-2xl font-bold text-[#1b1b1b] mb-2 uppercase">
+            <h2
+              class="text-[22px] lg:text-2xl font-bold text-[#1b1b1b] mb-2 uppercase"
+            >
               {{ selectedProduct.name }}
             </h2>
             <p class="text-gray-600 text-sm mb-2">
