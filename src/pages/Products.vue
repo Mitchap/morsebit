@@ -30,21 +30,25 @@
             :to="product.route"
             class="group"
           >
-            <div
-              class="aspect-h-1 aspect-w-1 w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7"
-            >
-              <img
-                :src="product.cardImage"
-                :alt="product.imageAlt1"
-                class="h-full w-full object-cover object-center transition duration-500 group-hover:opacity-75"
-              />
+            <div v-if="product.category === 'belt'">
+              <div
+                class="aspect-h-1 aspect-w-1 w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7"
+              >
+                <img
+                  :src="product.cardImage"
+                  :alt="product.imageAlt1"
+                  class="h-full w-full object-cover object-center transition duration-500 group-hover:opacity-75"
+                />
+              </div>
+              <h3 class="mt-4 text-md text-gray-700 font-semibold">
+                {{ product.name }}
+              </h3>
+              <p
+                class="mt-1 text-lg font-medium text-orange-500 text-decoration"
+              >
+                ₱{{ product.price }}
+              </p>
             </div>
-            <h3 class="mt-4 text-md text-gray-700 font-semibold">
-              {{ product.name }}
-            </h3>
-            <p class="mt-1 text-lg font-medium text-orange-500 text-decoration">
-              ₱{{ product.price }}
-            </p>
           </router-link>
         </div>
       </div>
