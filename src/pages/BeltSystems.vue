@@ -13,7 +13,12 @@
           class="w-60 lg:w-[30rem] p-2 bg-stone-200 outline-none"
         />
       </div>
-      <div></div>
+      <div class="text-center mt-10 pt-5 text-[#1b1b1b]">
+        <h1 class="text-lg lg:text-xl font-medium uppercase">
+          dynamic belt systems
+        </h1>
+        <h1 class="text-base">⠍⠕⠗⠎⠼⠑⠼⠃⠼⠊⠞</h1>
+      </div>
       <div
         class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8"
       >
@@ -31,24 +36,28 @@
             :to="product.route"
             class="group"
           >
-            <div
-              class="aspect-h-1 aspect-w-1 w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7"
-            >
-              <img
-                :src="product.cardImage"
-                :alt="product.imageAlt1"
-                class="h-full w-full object-cover object-center transition duration-500 group-hover:opacity-75"
-              />
+            <div v-if="product.category === 'belt'">
+              <div
+                class="aspect-h-1 aspect-w-1 w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7"
+              >
+                <img
+                  :src="product.cardImage"
+                  :alt="product.imageAlt1"
+                  class="h-full w-full object-cover object-center transition duration-500 group-hover:opacity-75"
+                />
+              </div>
+              <p class="mt-3 text-sm text-gray-500 font-medium">
+                {{ product.variant }} Variant
+              </p>
+              <h3 class="mt-1 text-md text-gray-700 font-semibold">
+                {{ product.name }}
+              </h3>
+              <p
+                class="mt-1 text-lg font-medium text-orange-500 text-decoration"
+              >
+                ₱{{ product.price }}
+              </p>
             </div>
-            <p class="mt-3 text-sm text-gray-500 font-medium">
-              {{ product.variant }} Variant
-            </p>
-            <h3 class="mt-1 text-md text-gray-700 font-semibold">
-              {{ product.name }}
-            </h3>
-            <p class="mt-1 text-lg font-medium text-orange-500 text-decoration">
-              ₱{{ product.price }}
-            </p>
           </router-link>
         </div>
       </div>

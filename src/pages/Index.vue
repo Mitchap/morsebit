@@ -21,62 +21,30 @@
           </div>
         </router-link>
       </div>
-      <div class="flex flex-col lg:flex-row">
-        <div
-          class="mx-auto my-5 max-w-sm bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700"
-        >
-          <div class="text-zinc-100 hover:text-orange-400 text-center">
-            <div class="overflow-hidden">
-              <img
-                src="/images/products/image6.jpg"
-                class="hover:scale-125 transition duration-[4000ms] cursor-pointer object-cover w-80 h-96"
-              />
+      <div
+        class="flex flex-col lg:flex-row justify-center items-center gap-x-12"
+      >
+        <div v-for="category in categories">
+          <router-link :to="category.link">
+            <div
+              class="mx-auto my-5 max-w-sm bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700"
+            >
+              <div class="text-zinc-100 hover:text-orange-400 text-center">
+                <div class="overflow-hidden">
+                  <img
+                    :src="category.image"
+                    class="hover:scale-110 transition duration-1000 cursor-pointer object-cover w-80 h-96"
+                  />
+                </div>
+                <div></div>
+                <div class="w-full">
+                  <h1 class="text-base bg-black p-3 font-medium">
+                    {{ category.name }}
+                  </h1>
+                </div>
+              </div>
             </div>
-            <div></div>
-
-            <div class="w-full">
-              <h1 class="text-base bg-black p-3 font-medium">
-                DYNAMIC BELT SYSTEMS
-              </h1>
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="mx-auto my-5 max-w-sm bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700"
-        >
-          <div class="text-zinc-100 hover:text-orange-400 text-center">
-            <div class="overflow-hidden grid">
-              <img
-                src="/images/products/image4.png"
-                class="hover:scale-125 transition duration-[4000ms] cursor-pointer object-cover w-80 h-96"
-              />
-            </div>
-
-            <div class="w-full">
-              <h1 class="text-base bg-black p-3 font-medium">
-                MESSENGER SLING SYSTEMS
-              </h1>
-            </div>
-          </div>
-        </div>
-        <div
-          class="mx-auto my-5 max-w-sm bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700"
-        >
-          <div class="text-zinc-100 hover:text-orange-400 text-center">
-            <div class="overflow-hidden">
-              <img
-                src="/images/products/image5.jpg"
-                class="hover:scale-125 transition duration-[4000ms] cursor-pointer object-cover w-80 h-96"
-              />
-            </div>
-
-            <div class="w-full">
-              <h1 class="text-base bg-black p-3 font-medium">
-                CUSTOM ACCESSORIES
-              </h1>
-            </div>
-          </div>
+          </router-link>
         </div>
       </div>
     </main>
@@ -84,7 +52,29 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
 import ProductCarousel from "@/components/ProductCarousel.vue";
+
+const categories = ref([
+  {
+    name: "DYNAMIC BELT SYSTEMS",
+    image: "/images/products/light-gray-belt.jpg",
+    alt: "magnetic belt with light gray strap",
+    link: "/beltsystems",
+  },
+  {
+    name: "MESSENGER SLING SYSTEMS",
+    image: "/images/products/messenger-sling-model.png",
+    alt: "male wearing all black outfit with a technical messenger bag sling",
+    link: "/slingsystems",
+  },
+  {
+    name: "CUSTOM ACCESSORIES",
+    image: "/images/products/accessories.jpg",
+    alt: "assortment of a wallet, molle velcro patch, a polymer carabineer, and magnetic buckles",
+    link: "customaccessories",
+  },
+]);
 </script>
 
 <style>

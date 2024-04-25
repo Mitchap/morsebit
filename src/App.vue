@@ -44,9 +44,9 @@ const route = useRoute();
 const isLoading = ref(true);
 
 // Compute whether each component should be shown based on the current route
-const shouldShowNavbar = computed(() => route.path !== "/dashboard");
-const shouldShowSideNav = computed(() => route.path !== "/dashboard");
-const shouldShowFooter = computed(() => route.path !== "/dashboard");
+const shouldShowNavbar = computed(() => route.path !== "/notfound");
+const shouldShowSideNav = computed(() => route.path !== "/notfound");
+const shouldShowFooter = computed(() => route.path !== "/notfound");
 
 // Simulate loading process
 setTimeout(() => {
