@@ -62,10 +62,10 @@
         </div>
         <div class="text-center">
           <h1 class="text-lg font-medium uppercase">
-            category null temporarily
+            category temporarily null
           </h1>
-          <p class="text-md">Resynchronize with system</p>
-          <div class="center-center browse">
+
+          <div class="absolute left-1/2 translate-x-[-50%] mt-4">
             <router-link to="/products">
               <div class="btn-glitch-fill text-lg lg:text-xl">
                 <span class="text"

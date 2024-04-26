@@ -15,7 +15,7 @@
       </div> -->
       <div class="text-center mt-10 pt-5 text-[#1b1b1b]">
         <h1 class="text-lg lg:text-xl font-medium uppercase">
-          messenger sling systems
+          dynamic sling systems
         </h1>
         <h1 class="text-base">⠍⠕⠗⠎⠼⠑⠼⠃⠼⠊⠞</h1>
       </div>
@@ -62,10 +62,9 @@
         </div>
         <div class="text-center">
           <h1 class="text-lg font-medium uppercase">
-            category null temporarily
+            category temporarily null
           </h1>
-          <p class="text-md">Resynchronize with system</p>
-          <div class="center-center browse">
+          <div class="absolute left-1/2 translate-x-[-50%] mt-4">
             <router-link to="/products">
               <div class="btn-glitch-fill text-lg lg:text-xl">
                 <span class="text"

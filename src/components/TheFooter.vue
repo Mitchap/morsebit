@@ -99,13 +99,15 @@
             Products
           </div>
           <p class="mb-4 hover:text-orange-400">
-            <a href="#!">Dynamic Belt System</a>
+            <router-link to="/beltsystems"> Dynamic Belt Systems</router-link>
           </p>
           <p class="mb-4 hover:text-orange-400">
-            <a href="#!">Messenger Sling System</a>
+            <router-link to="/slingsystems">Dynamic Sling Systems</router-link>
           </p>
           <p class="mb-4 hover:text-orange-400">
-            <a href="#!">Custom Accessories</a>
+            <router-link to="/customaccessories">
+              Custom Accessories</router-link
+            >
           </p>
         </div>
         <!-- Useful links section -->

@@ -63,8 +63,8 @@ const categories = ref([
     link: "/beltsystems",
   },
   {
-    name: "MESSENGER SLING SYSTEMS",
-    image: "/images/products/messenger-sling-model.png",
+    name: "DYNAMIC SLING SYSTEMS",
+    image: "/images/products/sling-system-card.jpg",
     alt: "male wearing all black outfit with a technical messenger bag sling",
     link: "/slingsystems",
   },
