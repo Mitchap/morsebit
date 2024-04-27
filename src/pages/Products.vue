@@ -10,7 +10,7 @@
           type="search"
           v-model="search"
           placeholder="Search products ..."
-          class="w-60 lg:w-[30rem] p-2 bg-stone-200 outline-none"
+          class="w-60 lg:w-[30rem] p-2 bg-stone-300 outline-none"
         />
       </div>
       <div></div>
@@ -77,4 +77,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+
+</style>
