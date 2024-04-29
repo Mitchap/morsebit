@@ -2,41 +2,67 @@
   <div>
     <main class="mt-26 py-32 h-full bg-[#fefefe]">
       <!-- products list -->
-      <!-- <div
-        class="fixed w-screen p-2 z-40 bg-[#fefefe] shadow -mt-5 lg:-mt-1 flex items-center justify-center"
+      <div
+        class="fixed w-screen p-2 z-40 -mt-5 lg:-mt-1 flex justify-end bg-[#fefefe]"
       >
-        <input
-          id="search"
-          type="search"
-          v-model="search"
-          placeholder="Search products ..."
-          class="w-60 lg:w-[30rem] p-2 bg-stone-200 outline-none"
-        />
-      </div> -->
+        <button
+          class="text-sm lg:text-base py-2 px-4"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasTop"
+          aria-controls="offcanvasTop"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i> SEARCH
+        </button>
+      </div>
+
       <div class="text-center mt-10 pt-5 text-[#1b1b1b]">
         <h1 class="text-lg lg:text-xl font-medium uppercase">
-          dynamic sling systems
+          custom accessories
         </h1>
         <h1 class="text-base">⠍⠕⠗⠎⠼⠑⠼⠃⠼⠊⠞</h1>
       </div>
+
+      <div
+        class="offcanvas offcanvas-top search-bar"
+        tabindex="-1"
+        id="offcanvasTop"
+        aria-labelledby="offcanvasTopLabel"
+      >
+        <div class="offcanvas-header">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body text-center overflow-hidden">
+          <div>
+            <input
+              id="search"
+              type="search"
+              v-model="search"
+              placeholder="Search products ..."
+              class="h-14 w-60 lg:w-[50rem] p-2 bg-stone-300 outline-none"
+            />
+          </div>
+        </div>
+      </div>
+
       <div
         class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8"
       >
+        <span
+          v-if="filteredProducts.length === 0"
+          class="text-gray-500 text-base flex justify-center"
+          >No products found.</span
+        >
         <div
           class="grid grid-cols-1 gap-x-6 gap-y-10 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
         >
-          <span
-            v-if="filteredProducts.length === 0"
-            class="flex items-center justify-center text-gray-500 text-base"
-            >No products found.</span
-          >
-          <router-link
-            v-for="product in filteredProducts"
-            :key="product.id"
-            :to="product.route"
-            class="group"
-          >
-            <div v-if="product.category === 'sling'">
+          <div v-for="product in filteredProducts" :key="product.id">
+            <router-link :to="product.route" class="group">
               <div
                 class="aspect-h-1 aspect-w-1 w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7"
               >
@@ -57,21 +83,6 @@
               >
                 ₱{{ product.price }}
               </p>
-            </div>
-          </router-link>
-        </div>
-        <div class="text-center">
-          <h1 class="text-lg font-medium uppercase">
-            category temporarily null
-          </h1>
-          <div class="absolute left-1/2 translate-x-[-50%] mt-4">
-            <router-link to="/products">
-              <div class="btn-glitch-fill text-lg lg:text-xl">
-                <span class="text"
-                  >// <span class="text-decoration">_</span> all products
-                </span>
-                <span class="decoration ms-3"> &rArr;</span>
-              </div>
             </router-link>
           </div>
         </div>
@@ -88,14 +99,19 @@ export default {
   data() {
     return {
       products: productData,
+      selectedCategory: "custom",
       search: "",
     };
   },
   computed: {
     filteredProducts() {
-      return this.products.filter((product) =>
-        product.name.toLowerCase().includes(this.search.toLowerCase())
-      );
+      return this.products.filter((product) => {
+        const isCategoryMatch = product.category === this.selectedCategory;
+        const isSearchMatch =
+          this.search === "" ||
+          product.name.toLowerCase().includes(this.search.toLowerCase());
+        return isCategoryMatch && isSearchMatch;
+      });
     },
   },
 };

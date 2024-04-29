@@ -57,13 +57,13 @@ import ProductCarousel from "@/components/ProductCarousel.vue";
 
 const categories = ref([
   {
-    name: "DYNAMIC BELT SYSTEMS",
+    name: " BELT SYSTEMS",
     image: "/images/products/light-gray-belt.jpg",
     alt: "magnetic belt with light gray strap",
     link: "/beltsystems",
   },
   {
-    name: "DYNAMIC SLING SYSTEMS",
+    name: " SLING SYSTEMS",
     image: "/images/products/sling-system-card.jpg",
     alt: "male wearing all black outfit with a technical messenger bag sling",
     link: "/slingsystems",

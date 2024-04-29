@@ -121,17 +121,17 @@
               </div>
             </div>
 
-            <div>
+            <div class="mb-12">
               <span class="font-bold text-gray-700">Product Description:</span>
               <p class="text-gray-600 text-sm mt-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-                ante justo. Integer euismod libero id mauris malesuada
-                tincidunt. Vivamus commodo nulla ut lorem rhoncus aliquet. Duis
-                dapibus augue vel ipsum pretium, et venenatis sem blandit.
-                Quisque ut erat vitae nisi ultrices placerat non eget velit.
-                Integer ornare mi sed ipsum lacinia, non sagittis mauris
-                blandit. Morbi fermentum libero vel nisl suscipit, nec tincidunt
-                mi consectetur.
+              {{ selectedProduct.description }}
+              </p>
+            </div>
+              <div>
+              <span class="text-sm font-medium italic text-gray-500">*Disclaimer</span>
+              <p class="text-gray-400 text-sm mt-2 italic">
+              Products may differ slightly due to lighting conditions.<br>
+              Product may exhibit minor scratches due to supplier factors. Functionality is not affected.
               </p>
             </div>
           </div>

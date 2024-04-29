@@ -1,7 +1,7 @@
 <template>
   <div class="text-center p-5 text-orange-400 bg-black">
     <h1 class="text-lg lg:text-xl font-medium uppercase">
-      new release | db-s1
+      new release | db-s2
     </h1>
   </div>
   <div
@@ -11,7 +11,7 @@
   >
     <div class="carousel-indicators flex justify-end grid">
       <div class="text-center mb-5 relative">
-        <router-link to="/products">
+        <router-link to="/dbs2">
           <div class="center-center">
             <div class="btn-glitch-fill text-lg lg:text-xl">
               <span class="text"
@@ -36,33 +36,20 @@
           data-bs-slide-to="1"
           aria-label="Slide 2"
         ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
       </div>
     </div>
     <!-- carousel images -->
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="2000">
         <img
-          src="/images/products/dbs1-blk.png"
+          src="/images/products/dbs2-blk.jpg"
           class="d-block w-100"
           alt="magnetic belt with brand logo, product name, and disclaimer text"
         />
       </div>
       <div class="carousel-item" data-bs-interval="2000">
         <img
-          src="/images/products/dbs1-ag.png"
-          class="d-block w-100"
-          alt="magnetic belt with brand logo, product name, and disclaimer text"
-        />
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img
-          src="/images/products/dbs1-cm.png"
+          src="/images/products/dbs2-ag.jpg"
           class="d-block w-100"
           alt="magnetic belt with brand logo, product name, and disclaimer text"
         />
