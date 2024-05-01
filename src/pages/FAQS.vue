@@ -22,7 +22,7 @@
           expensive?
         </h2>
         <p class="text-base mt-2">
-          The products are artisanal made and produced in small batches. The
+          The products are artisanal-made and produced in small batches. The
           unconventional and experimental design, materials used, and
           construction of each product contribute to their respective prices.
         </p>
@@ -31,8 +31,8 @@
           Why can't I place orders in the website?
         </h2>
         <p class="text-base mt-2">
-          We do not collect any form of data, hence placing orders is not
-          possible and the website serves as a showcase website.
+          We do not collect any form of data; hence, placing orders is not
+          possible, and the website serves only as a showcase website.
         </p>
 
         <h2 class="mt-4 font-semibold text-lg lg:text-xl">
@@ -55,8 +55,9 @@
           Do you accept commissions for custom accessories?
         </h2>
         <p class="text-base mt-2">
-          <span class="font-medium">MORSEBIT</span> accept requests for specific
-          and custom designs that allow users to adapt to their environment.
+          <span class="font-medium">MORSEBIT</span> accepts requests for
+          specific and custom designs that allow users to adapt to their
+          environment.
         </p>
       </div>
     </main>
