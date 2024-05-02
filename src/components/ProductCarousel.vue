@@ -1,7 +1,7 @@
 <template>
-  <div class="text-center pt-5 p-2 text-black bg-[#fefefe]">
-    <h1 class="text-base font-medium uppercase">
-      Free shipping within Escalante & Sagay City, or for orders over ₱1000
+  <div class="text-center p-2 text-black bg-[#fefefe]">
+    <h1 class="text-xs lg:text-base">
+      Free shipping for Escalante & Sagay City, or for orders over ₱1000
     </h1>
   </div>
   <div class="text-center p-5 text-orange-400 bg-black">

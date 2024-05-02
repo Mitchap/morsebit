@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main class="mt-28 pb-24 h-full bg-[#fefefe]">
+    <main class="mt-32 pb-24 h-full bg-[#fefefe]">
       <ProductCarousel />
 
       <div class="text-center p-5 text-white bg-black">
