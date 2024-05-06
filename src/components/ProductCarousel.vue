@@ -1,7 +1,8 @@
 <template>
   <div class="text-center p-2 text-black bg-[#fefefe]">
     <h1 class="text-xs lg:text-base">
-      Free shipping for Escalante & Sagay City, or for orders over ₱1000
+      Free shipping within Escalante & Sagay City Proper, or for orders over
+      ₱1000
     </h1>
   </div>
   <div class="text-center p-5 text-orange-400 bg-black">
@@ -11,8 +12,9 @@
   </div>
   <div
     id="carouselExampleCaptions"
-    class="carousel slide carousel-fade"
+    class="carousel slide carousel-fade w-full h-full"
     data-bs-ride="carousel"
+    v-motion-fade-visible-once
   >
     <div class="carousel-indicators flex justify-end grid">
       <div class="text-center mb-5 relative">

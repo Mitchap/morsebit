@@ -40,7 +40,8 @@
         </h2>
         <p class="text-base mt-2">
           Nationwide shipping is possible. Shipping costs are covered by the
-          buyer.
+          buyer. Products will be shipped with J&T Express. Once the product has
+          been shipped, you will receive a tracking number for your order(s).
         </p>
 
         <h2 class="mt-4 font-semibold text-lg lg:text-xl">

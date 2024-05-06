@@ -10,7 +10,7 @@
       </div>
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row -mx-4">
-          <div class="md:flex-1 px-4">
+          <div class="md:flex-1 px-4" v-motion-fade-visible>
             <div id="carouselIndicators" class="carousel slide mb-4">
               <div class="carousel-indicators">
                 <button
@@ -139,15 +139,18 @@
             <div class="mb-12">
               <span class="font-bold text-gray-700">Product Description:</span>
               <p class="text-gray-600 text-sm mt-2">
-              {{ selectedProduct.description }}
+                {{ selectedProduct.description }}
               </p>
             </div>
 
             <div>
-              <span class="text-sm font-medium italic text-gray-500">*Disclaimer</span>
+              <span class="text-sm font-medium italic text-gray-500"
+                >*Disclaimer</span
+              >
               <p class="text-gray-400 text-sm mt-2 italic">
-              Products may differ slightly due to lighting conditions.<br>
-              Product may exhibit minor scratches due to supplier factors. Functionality is not affected.
+                Products may differ slightly due to lighting conditions.<br />
+                Product may exhibit minor scratches due to supplier factors.
+                Functionality is not affected.
               </p>
             </div>
           </div>

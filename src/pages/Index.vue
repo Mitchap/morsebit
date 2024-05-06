@@ -24,7 +24,7 @@
       <div
         class="flex flex-col lg:flex-row justify-center items-center gap-x-12"
       >
-        <div v-for="category in categories">
+        <div v-for="category in categories" v-motion-slide-visible-once-bottom>
           <router-link :to="category.link">
             <div
               class="mx-auto my-5 max-w-sm bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700"

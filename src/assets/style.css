@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .indicator {
     width: 15px !important;
 

@@ -169,15 +169,22 @@ export default {
   },
   computed: {
     filteredProducts() {
-      return this.products.filter((product) => {
-        const isCategoryMatch =
-          this.selectedCategory === "all" ||
-          product.category === this.selectedCategory;
-        const isSearchMatch =
-          this.search === "" ||
-          product.name.toLowerCase().includes(this.search.toLowerCase());
-        return isCategoryMatch && isSearchMatch;
-      });
+      return this.products
+        .filter((product) => {
+          const isCategoryMatch =
+            this.selectedCategory === "all" ||
+            product.category === this.selectedCategory;
+          const isSearchMatch =
+            this.search === "" ||
+            product.name.toLowerCase().includes(this.search.toLowerCase());
+          return isCategoryMatch && isSearchMatch;
+        })
+        .sort((a, b) => {
+          // Sort products based on category
+          if (a.category < b.category) return -1;
+          if (a.category > b.category) return 1;
+          return 0;
+        });
     },
   },
 };
