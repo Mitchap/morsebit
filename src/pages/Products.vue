@@ -140,7 +140,7 @@
                 {{ product.variant }} Variant
               </p>
               <h3 class="mt-1 text-md text-gray-700 font-semibold">
-                {{ product.name }}
+                {{ product.productID }}
               </h3>
               <p
                 class="mt-1 text-lg font-medium text-orange-500 text-decoration"
@@ -180,7 +180,7 @@ export default {
           return isCategoryMatch && isSearchMatch;
         })
         .sort((a, b) => {
-          // Sort products based on category
+          // Sort products based on category and ID
           if (a.category < b.category) return -1;
           if (a.category > b.category) return 1;
           return 0;

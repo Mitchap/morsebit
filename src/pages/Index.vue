@@ -34,6 +34,7 @@
                   <img
                     :src="category.image"
                     class="hover:scale-110 transition duration-1000 cursor-pointer object-cover w-80 h-96"
+                    loading="lazy"
                   />
                 </div>
                 <div></div>

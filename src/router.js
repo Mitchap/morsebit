@@ -1,16 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Index from "@/pages/Index.vue";
-import Products from "@/pages/Products.vue";
-import BeltSystems from "@/pages/BeltSystems.vue";
-import SlingSystems from "@/pages/SlingSystems.vue";
-import CustomAccessories from "@/pages/CustomAccessories.vue";
-import DBS1 from "@/products/DBS1.vue";
-import DBS2 from "@/products/DBS2.vue";
-import About from "@/pages/About.vue";
-import FAQS from "@/pages/FAQS.vue";
-import PrivacyPolicy from "@/pages/PrivacyPolicy.vue";
-import ReturnPolicy from "@/pages/ReturnPolicy.vue";
-import Terms from "@/pages/Terms.vue";
 import NotFound from "@/components/NotFound.vue";
 
 // Unique keys are added to ensure remount of pages
@@ -29,57 +18,62 @@ const router = createRouter({
     },
     {
       path: "/products",
-      component: Products,
+      component: () => import("@/pages/Products.vue"),
       props: { key: "products" },
     },
     {
       path: "/beltsystems",
-      component: BeltSystems,
+      component: () => import("@/pages/BeltSystems.vue"),
       props: { key: "beltsystems" },
     },
     {
       path: "/slingsystems",
-      component: SlingSystems,
+      component: () => import("@/pages/SlingSystems.vue"),
       props: { key: "slingsystems" },
     },
     {
       path: "/customaccessories",
-      component: CustomAccessories,
+      component: () => import("@/pages/CustomAccessories.vue"),
       props: { key: "customaccessories" },
     },
     {
       path: "/dbs1",
-      component: DBS1,
+      component: () => import("@/products/DBS1.vue"),
       props: { key: "dbs1" },
     },
     {
-      path: "/dbs2",
-      component: DBS2,
-      props: { key: "dbs2" },
+      path: "/dbs2-ag",
+      component: () => import("@/products/DBS2-AG.vue"),
+      props: { key: "dbs2-ag" },
+    },
+    {
+      path: "/dbs2-c",
+      component: () => import("@/products/DBS2-C.vue"),
+      props: { key: "dbs2-c" },
     },
     {
       path: "/about",
-      component: About,
+      component: () => import("@/pages/About.vue"),
       props: { key: "about" },
     },
     {
       path: "/faqs",
-      component: FAQS,
+      component: () => import("@/pages/FAQS.vue"),
       props: { key: "faqs" },
     },
     {
       path: "/privacypolicy",
-      component: PrivacyPolicy,
+      component: () => import("@/pages/PrivacyPolicy.vue"),
       props: { key: "privacypolicy" },
     },
     {
       path: "/returnpolicy",
-      component: ReturnPolicy,
+      component: () => import("@/pages/ReturnPolicy.vue"),
       props: { key: "returnpolicy" },
     },
     {
       path: "/terms",
-      component: Terms,
+      component: () => import("@/pages/Terms.vue"),
       props: { key: "terms" },
     },
     {

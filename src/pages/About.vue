@@ -11,24 +11,36 @@
       <h1 class="text-center font-bold text-xl lg:text-2xl uppercase"></h1>
 
       <div class="flex flex-col">
-        <div class="flex flex-col lg:flex-row justify-center items-center">
+        <div
+          class="flex flex-col lg:flex-row justify-center items-center"
+          v-motion-slide-visible-right
+        >
           <p
             class="text-justify w-96 mt-5 px-5 text-lg font-medium max-w-4xl leading-loose flex items-center"
           >
             MORSEBIT is a small local producer of technical accessories and
             customizations situated in Escalante City, Philippines.
           </p>
-          <img class="w-80 h-96 my-4" src="/images/dbs-with-box.jpg" alt="" />
+          <img
+            class="w-80 h-96 my-4"
+            src="/images/dbs-with-box.jpg"
+            alt=""
+            loading="lazy"
+          />
         </div>
         <div class="flex flex-row justify-center items-center my-16">
           <p class="font-bold text-black text-3xl">/////</p>
         </div>
 
-        <div class="flex flex-col lg:flex-row justify-center items-center">
+        <div
+          class="flex flex-col lg:flex-row justify-center items-center"
+          v-motion-slide-visible-left
+        >
           <img
             class="w-80 h-96 my-4"
             src="/images/messenger-sling-model.png"
             alt=""
+            loading="lazy"
           />
           <p
             class="text-justify w-96 mt-5 px-5 text-lg font-medium max-w-4xl leading-loose flex items-center"

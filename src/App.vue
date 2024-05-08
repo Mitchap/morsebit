@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="overflow-x-hidden">
     <!-- Navbar component, only displayed on certain routes -->
     <div class="hidden md:block" v-if="shouldShowNavbar">
       <Navbar />
