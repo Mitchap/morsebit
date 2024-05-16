@@ -11,7 +11,7 @@
       </div>
       <div class="text-center mt-4 mb-10 lg:mb-20 relative">
         <router-link to="/products">
-          <div class="center-center">
+          <div class="center-center z-[999]">
             <div class="btn-glitch-fill text-lg lg:text-xl">
               <span class="text"
                 >// <span class="text-decoration">_</span> view all

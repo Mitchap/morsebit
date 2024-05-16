@@ -18,7 +18,7 @@
 
       <div class="text-center mt-10 pt-5 text-[#1b1b1b]">
         <h1 class="text-lg lg:text-xl font-medium uppercase">
-          custom accessories
+          sling systems
         </h1>
         <h1 class="text-base">⠍⠕⠗⠎⠼⠑⠼⠃⠼⠊⠞</h1>
       </div>

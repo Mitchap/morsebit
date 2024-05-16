@@ -56,11 +56,11 @@
         <div
           class="grid grid-cols-1 gap-x-6 gap-y-10 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
         >
-          <span
-            v-if="filteredProducts.length === 0"
-            class="flex items-center justify-center text-gray-500 text-base"
-            >No products found.</span
-          >
+        <span
+          v-if="filteredProducts.length === 0"
+          class="text-gray-500 text-base flex justify-center"
+          >No products found.</span
+        >
           <div
             v-for="product in filteredProducts"
             :key="product.id"
