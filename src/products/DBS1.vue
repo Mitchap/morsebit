@@ -138,9 +138,15 @@
 
             <div class="mb-12">
               <span class="font-bold text-gray-700">Product Description:</span>
-              <p class="text-gray-600 text-sm mt-2">
-                {{ selectedProduct.description }}
-              </p>
+              <ul class="text-gray-700 text-sm font-medium mt-2 list-disc ms-4">
+                <li class="mb-2">quick-release magnetic buckle</li>
+                <li class="mb-2">double-bar D-Ring for quick adjustment feature</li>
+                <li class="mb-2">YKK D-Rings</li>
+                <li class="mb-2">belt clip</li>
+                <li class="mb-2">1 inch / 25mm wide, 1mm thick military attachment webbing</li>
+                <li class="mb-2">double-stitched load bearing points</li>
+              </ul>
+
             </div>
 
             <div>
