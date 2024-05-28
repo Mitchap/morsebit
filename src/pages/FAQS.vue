@@ -12,8 +12,7 @@
         </h2>
         <p class="text-base mt-2">
           <span class="font-medium">MORSEBIT</span>'s design philosophy follows
-          utilitarianism, which aligns with the techwear criteria where
-          performance plays a huge role in defining the aesthetics of clothing
+          utilitarianism, where performance plays a huge role in defining the aesthetics of clothing
           and accessories.
         </p>
 
