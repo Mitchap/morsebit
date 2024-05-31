@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main class="mt-28 py-32 py-32 h-full" style="background-color: #fefefe">
+    <main class="mt-28 py-32 h-full" style="background-color: #fefefe">
       <h1 class="text-center font-bold text-2xl uppercase">
         Frequently Asked Questions
       </h1>
@@ -12,8 +12,7 @@
         </h2>
         <p class="text-base mt-2">
           <span class="font-medium">MORSEBIT</span>'s design philosophy follows
-          utilitarianism, which aligns with the techwear criteria where
-          performance plays a huge role in defining the aesthetics of clothing
+          utilitarianism, where performance plays a huge role in defining the aesthetics of clothing
           and accessories.
         </p>
 
