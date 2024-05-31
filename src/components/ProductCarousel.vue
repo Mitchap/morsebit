@@ -13,12 +13,10 @@
   <div
     id="carouselExampleCaptions"
     class="carousel slide carousel-fade w-full h-full"
-    data-bs-ride="carousel"
-    v-motion-fade-visible-once
-  >
-    <div class="carousel-indicators flex justify-end grid">
+    data-bs-ride="carousel"  >
+    <div class="carousel-indicators justify-end grid">
       <div class="text-center mb-5 relative">
-        <router-link to="/dbs2-c">
+        <a href="/dbs2-c">
           <div class="center-center">
             <div class="btn-glitch-fill text-lg lg:text-xl">
               <span class="text"
@@ -26,7 +24,7 @@
               >
             </div>
           </div>
-        </router-link>
+        </a>
       </div>
       <div class="col-start-1 text-center">
         <button

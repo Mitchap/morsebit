@@ -3,7 +3,7 @@
     <main class="mt-26 py-32 h-full bg-[#fefefe]">
       <!-- products list -->
       <div
-        class="fixed w-screen p-2 z-40 -mt-5 lg:-mt-1 flex justify-end bg-[#fefefe]"
+        class="fixed w-screen p-2 z-40 -mt-5 lg:-mt-1 flex justify-end "
       >
         <button
           class="text-sm lg:text-base py-2 px-4"
@@ -12,7 +12,7 @@
           data-bs-target="#offcanvasTop"
           aria-controls="offcanvasTop"
         >
-          <i class="fa-solid fa-magnifying-glass"></i> SEARCH
+          <i class="fa-solid fa-magnifying-glass mt-4"></i> SEARCH
         </button>
       </div>
 
@@ -54,7 +54,7 @@
         class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8"
       >
         <div
-          class="grid grid-cols-1 gap-x-6 gap-y-10 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
+          class="grid gap-x-6 gap-y-10 grid-cols-2 md:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
         >
         <span
           v-if="filteredProducts.length === 0"
@@ -112,13 +112,17 @@ export default {
       return this.products.filter((product) => {
         const isCategoryMatch = product.category === this.selectedCategory;
         const isSearchMatch =
-          this.search === "" ||
-          product.name.toLowerCase().includes(this.search.toLowerCase());
-        return isCategoryMatch && isSearchMatch;
+            this.search === "" ||
+            product.name.toLowerCase().includes(this.search.toLowerCase()) ||
+            product.categoryPlural.toLowerCase().includes(this.search.toLowerCase()) ||
+            product.productID.toLowerCase().includes(this.search.toLowerCase());
+
+          return isCategoryMatch && isSearchMatch;
       });
     },
   },
 };
 </script>
 
-<style></style>
+<style>
+</style>

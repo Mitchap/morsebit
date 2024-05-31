@@ -119,14 +119,14 @@
           >No products found.</span
         >
         <div
-          class="grid grid-cols-1 gap-x-6 gap-y-10 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
+          class="grid gap-x-6 gap-y-10 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
         >
           <div
             v-for="product in filteredProducts"
             :key="product.id"
             v-motion-slide-visible-bottom
           >
-            <router-link :to="product.route" class="group">
+            <a :href="product.route" class="group">
               <div
                 class="aspect-h-1 aspect-w-1 w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7"
               >
@@ -147,7 +147,7 @@
               >
                 ₱{{ product.price }}
               </p>
-            </router-link>
+            </a>
           </div>
         </div>
       </div>
@@ -174,9 +174,13 @@ export default {
           const isCategoryMatch =
             this.selectedCategory === "all" ||
             product.category === this.selectedCategory;
+// search function checks selected object data for match e.g. product.name
           const isSearchMatch =
             this.search === "" ||
-            product.name.toLowerCase().includes(this.search.toLowerCase());
+            product.name.toLowerCase().includes(this.search.toLowerCase()) ||
+            product.categoryPlural.toLowerCase().includes(this.search.toLowerCase()) ||
+            product.productID.toLowerCase().includes(this.search.toLowerCase());
+
           return isCategoryMatch && isSearchMatch;
         })
         .sort((a, b) => {

@@ -87,14 +87,14 @@
             Products
           </div>
           <p class="mb-4 hover:text-orange-400">
-            <router-link to="/beltsystems"> Belt Systems</router-link>
+            <a href="/beltsystems"> Belt Systems</a>
           </p>
           <p class="mb-4 hover:text-orange-400">
-            <router-link to="/slingsystems"> Sling Systems</router-link>
+            <a href="/slingsystems"> Sling Systems</a>
           </p>
           <p class="mb-4 hover:text-orange-400">
-            <router-link to="/customaccessories">
-              Custom Accessories</router-link
+            <a href="/customaccessories">
+              Custom Accessories</a
             >
           </p>
         </div>

@@ -3,7 +3,7 @@
     <main class="mt-26 py-32 h-full bg-[#fefefe]">
       <!-- products list -->
       <div
-        class="fixed w-screen p-2 z-40 -mt-5 lg:-mt-1 flex justify-end bg-[#fefefe]"
+        class="fixed w-screen p-2 z-40 -mt-5 lg:-mt-1 flex justify-end "
       >
         <button
           class="text-sm lg:text-base py-2 px-4"
@@ -12,7 +12,7 @@
           data-bs-target="#offcanvasTop"
           aria-controls="offcanvasTop"
         >
-          <i class="fa-solid fa-magnifying-glass"></i> SEARCH
+          <i class="fa-solid fa-magnifying-glass mt-4"></i> SEARCH
         </button>
       </div>
 
@@ -59,7 +59,7 @@
           >No products found.</span
         >
         <div
-          class="grid grid-cols-1 gap-x-6 gap-y-10 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
+          class="grid gap-x-6 gap-y-10 grid-cols-2 md:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
         >
           <div v-for="product in filteredProducts" :key="product.id">
             <router-link :to="product.route" class="group">

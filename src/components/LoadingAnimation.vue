@@ -1,208 +1,90 @@
 <template>
-  <div class="flex items-center justify-center h-screen">
-    <div class="loading-container">
-      <div class="loading"></div>
+  <div class="flex justify-center h-screen preloader">
 
-      <div id="loading-text">
-        <img
-          class="w-6 mx-auto"
-          src="/images/logo-icon.png"
-          alt="morsebit logo"
-          style="margin-top: -15px"
-        />
-      </div>
-    </div>
+
+    <div class="loader"></div> */
+
   </div>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      loading: true,
-    };
-  },
-};
+
+//  loading process
+window.addEventListener("load", () => {
+      const loader = document.querySelector(".preloader");
+
+      loader.classList.add("preloader--hidden");
+
+
+    });
 </script>
 
 <style>
-body {
-  background: #1b1b1b;
-}
-@keyframes rotate-loading {
-  0% {
-    transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-  }
-}
 
-@-moz-keyframes rotate-loading {
-  0% {
-    transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-  }
-}
 
-@-webkit-keyframes rotate-loading {
-  0% {
-    transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-  }
+.preloader {
+  background: #1b1b1b center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
 }
-
-@-o-keyframes rotate-loading {
-  0% {
-    transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-  }
+.preloader--hidden {
+  transition: ease-out 300ms;
+  transition-delay: 700ms;
+  opacity: 0.5;
+  visibility: hidden;
 }
-
-@keyframes loading-text-opacity {
-  0% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0.1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes loading-text-opacity {
-  0% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0.1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes loading-text-opacity {
-  0% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0.1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes loading-text-opacity {
-  0% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0.1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.loading-container,
-.loading {
-  height: 100px;
+.loader {
   position: relative;
-  width: 100px;
-  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 6rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
-
-.loading-container {
-  margin: 40px auto;
-}
-
-.loading {
-  border: 2px solid transparent;
-  border-color: transparent #fff transparent #fff;
-  -moz-animation: rotate-loading 1.5s linear 0s infinite normal;
-  -moz-transform-origin: 50% 50%;
-  -o-animation: rotate-loading 1.5s linear 0s infinite normal;
-  -o-transform-origin: 50% 50%;
-  -webkit-animation: rotate-loading 1.5s linear 0s infinite normal;
-  -webkit-transform-origin: 50% 50%;
-  animation: rotate-loading 1.5s linear 0s infinite normal;
-  transform-origin: 50% 50%;
-}
-
-.loading-container:hover .loading {
-  border-color: transparent #e45635 transparent #e45635;
-}
-.loading-container:hover .loading,
-.loading-container .loading {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-
-#loading-text {
-  -moz-animation: loading-text-opacity 2s linear 0s infinite normal;
-  -o-animation: loading-text-opacity 2s linear 0s infinite normal;
-  -webkit-animation: loading-text-opacity 2s linear 0s infinite normal;
-  animation: loading-text-opacity 2s linear 0s infinite normal;
-  margin-top: 45px;
-  opacity: 0;
+.loader:before,
+.loader:after {
+  content: "";
   position: absolute;
-  text-align: center;
-  top: 0;
-  width: 100px;
+  border-radius: 50%;
+  animation: pulsOut 1.8s ease-in-out infinite;
+  filter: drop-shadow(0 0 1rem rgba(255, 255, 255, 0.75));
 }
+.loader:before {
+  width: 100%;
+  padding-bottom: 100%;
+  box-shadow: inset 0 0 0 1rem #fff;
+  animation-name: pulsIn;
+}
+.loader:after {
+  width: calc(100% - 2rem);
+  padding-bottom: calc(100% - 2rem);
+  box-shadow: 0 0 0 0 #fff;
+}
+
+@keyframes pulsIn {
+  0% {
+    box-shadow: inset 0 0 0 1rem #fff;
+    opacity: 1;
+  }
+  50%, 100% {
+    box-shadow: inset 0 0 0 0 #fff;
+    opacity: 0;
+  }
+}
+
+@keyframes pulsOut {
+  0%, 50% {
+    box-shadow: 0 0 0 0 #fff;
+    opacity: 0;
+  }
+  100% {
+    box-shadow: 0 0 0 1rem #fff;
+    opacity: 1;
+  }
+}
+    
 </style>

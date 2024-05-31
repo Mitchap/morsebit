@@ -10,8 +10,8 @@
         <p class="text-sm mt-1">A collective showcase of equipments offered</p>
       </div>
       <div class="text-center mt-4 mb-10 lg:mb-20 relative">
-        <router-link to="/products">
-          <div class="center-center z-[999]">
+        <a href="/products">
+          <div class="center-center z-[10]">
             <div class="btn-glitch-fill text-lg lg:text-xl">
               <span class="text"
                 >// <span class="text-decoration">_</span> view all
@@ -19,7 +19,7 @@
               >
             </div>
           </div>
-        </router-link>
+        </a>
       </div>
       <div
         class="flex flex-col lg:flex-row justify-center items-center gap-x-12"
