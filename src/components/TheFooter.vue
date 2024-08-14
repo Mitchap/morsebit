@@ -44,7 +44,7 @@
         </a>
         <!-- github -->
         <a
-          href="https://github.com/Mitcha/"
+          href="https://github.com/Mitchap/"
           class="[&>svg]:h-4 [&>svg]:w-4 hover:text-orange-400"
         >
           <svg
