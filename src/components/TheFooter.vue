@@ -182,7 +182,7 @@
 
     <!--Copyright section-->
     <div class="bg-black/5 p-6 text-center">
-      <span>&copy; 2024 </span>
+      <span>&copy; 2026 </span>
       <a class="font-semibold" href="https://morsebit.vercel.app/"
         >MORSEBIT | All rights reserved. &trade;</a
       >
